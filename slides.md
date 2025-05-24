@@ -6,45 +6,47 @@ color: white
 mdc: true
 title: Tamales Doña Claudia S.A.S
 favicon: /tamalescaludia2.ico
-background: assets/fondo1.png
+background: ./assets/fondo1.png
+fonts:
+  local: Glacial Indifferences
 ---
 
 <img src="./assets/picante-removebg.png" alt="Tamal icono" class="mx-auto mb-6 w-24 h-24" />
 
-# <span class="font-glacial text-[50px] tracking-wide uppercase">Elementos Financieros</span>
+# <span class="font-helvetica text-[50px] tracking-wide uppercase">Elementos Financieros</span>
 
-## <span class="font-glacial font-bold text-[75px] uppercase leading-tight">Tamales Doña Claudia</span>
+## <span class="font-helvetica font-bold text-[75px] uppercase leading-tight">Tamales Doña Claudia</span>
 
 ---
 layout: image
-image: /assets/fondo2.png
-class: px-16 py-14 text-left
+# the image source
+image: ./assets/fondo2.png
 ---
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center ml-10 md:ml-28">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
 
   <!-- Columna de texto -->
   <div>
     <h2 class="text-4xl font-bold tracking-wide text-blue-900 uppercase mb-6">Integrantes</h2>
     
-    <ul class="space-y-5 text-lg text-blue-900 font-medium">
-      <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
-        <span>Buitrago Morales Julio Cesar</span>
-        <span class="text-sm font-mono">085400502022</span>
-      </li>
-      <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
-        <span>Romero Bonilla Cristian Camilo</span>
-        <span class="text-sm font-mono">085400522022</span>
-      </li>
-      <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
-        <span>Vargas Homez Paula Valentina</span>
-        <span class="text-sm font-mono">085400142022</span>
-      </li>
-    </ul>
+  <ul class="space-y-5 text-lg text-blue-900 font-medium">
+    <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
+      <span>Buitrago Morales Julio Cesar</span>
+      <span class="text-sm font-mono">085400502022</span>
+    </li>
+    <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
+      <span>Romero Bonilla Cristian Camilo</span>
+      <span class="text-sm font-mono">085400522022</span>
+    </li>
+    <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
+      <span>Vargas Homez Paula Valentina</span>
+      <span class="text-sm font-mono">085400142022</span>
+    </li>
+  </ul>
   </div>
 
   <!-- Imagen decorativa -->
-  <div class="flex justify-end pr-4">
+  <div class="flex justify-center">
     <img src="/assets/icono-tamal.png" alt="Equipo humano" class="max-w-xs md:max-w-md">
   </div>
 
