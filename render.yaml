@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: tamales-claudia
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm run start:render
+    envVars:
+      - key: NODE_VERSION
+        value: 20.x
+      - key: HOST
+        value: '0.0.0.0'
+      - key: PORT
+        value: '10000'  # Puerto por defecto para Render
+      - key: NODE_ENV
+        value: 'production'
+    plan: free
+    healthCheckPath: /
+    # Configuración de red
+    env: node
+    autoDeploy: true
