@@ -1,0 +1,62 @@
+/* Definición de la fuente Glacial Indifference */
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Aplicar la fuente a todo el documento */
+:root {
+  --slidev-theme-font-sans: 'Glacial Indifference',  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  --slidev-theme-font-mono: 'Glacial Indifference', monospace;
+  --slidev-theme-font-headings: 'Glacial Indifference',  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Aplicar la fuente a todo el documento */
+html, body, .slidev-layout {
+  font-family: 'Glacial Indifference', var(--slidev-theme-font-sans);
+}
+
+/* Asegurar que los encabezados usen la fuente correcta */
+h1, h2, h3, h4, h5, h6, .slidev-layout h1, .slidev-layout h2, .slidev-layout h3, .slidev-layout h4, .slidev-layout h5, .slidev-layout h6 {
+  font-family: 'Glacial Indifference', var(--slidev-theme-font-headings);
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+/* Ajustes específicos para la diapositiva de portada */
+.slidev-layout.cover {
+  h1 {
+    font-size: 3.5rem !important;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem !important;
+    opacity: 0.9;
+    font-weight: 600;
+  }
+}
+
+/* Asegurar que los párrafos y listas tengan un tamaño de fuente adecuado */
+.slidev-layout p, .slidev-layout li {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Ajustes para el código */
+.slidev-code {
+  font-family: var(--slidev-theme-font-mono);
+}

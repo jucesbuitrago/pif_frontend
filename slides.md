@@ -7,15 +7,13 @@ mdc: true
 title: Tamales Doña Claudia S.A.S
 favicon: /tamalescaludia2.ico
 background: ./assets/fondo1.png
-fonts:
-  local: Glacial Indifferences
 ---
 
-<img src="./assets/picante-removebg.png" alt="Tamal icono" class="mx-auto mb-6 w-24 h-24" />
+<img src="./assets/picante-removebg.png" alt="Tamal icono" class="mx-auto mb-10 w-32 h-32 opacity-90" />
 
-# <span class="font-helvetica text-[50px] tracking-wide uppercase">Elementos Financieros</span>
+# Elementos Financieros
 
-## <span class="font-helvetica font-bold text-[75px] uppercase leading-tight">Tamales Doña Claudia</span>
+## Tamales Doña Claudia
 
 ---
 layout: image
