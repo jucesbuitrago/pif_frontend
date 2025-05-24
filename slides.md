@@ -62,7 +62,7 @@ layout: image
 image: /assets/fondo3.png
 class: flex flex-col items-center justify-center px-10 py-12
 ---
-
+ 
 <div class="text-center text-[#253754]">
   <p class="text-xl font-light leading-none">Tabla de</p>
   <h1 class="text-3xl font-bold leading-tight mt-1">Contenido</h1>
