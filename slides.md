@@ -335,11 +335,11 @@ image: /assets/fondo7.png
   
   <div class="grid grid-cols-2 gap-4 mt-3">
     <div class="bg-[#4E95D4]/30 p-3 rounded-lg">
-      <div class="text-[#4E95D4]/70 text-sm">Promedio Semanal</div>
+      <div class="text-white text-sm">Promedio Semanal</div>
       <div class="text-lg font-bold text-white">$16,000,000</div>
     </div>
     <div class="bg-[#4E95D4]/30 p-3 rounded-lg">
-      <div class="text-[#4E95D4]/70 text-sm">Promedio Diario</div>
+      <div class="text-white text-sm">Promedio Diario</div>
       <div class="text-lg font-bold text-white">$2,133,333</div>
     </div>
   </div>
