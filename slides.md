@@ -7,13 +7,20 @@ mdc: true
 title: Tamales Doña Claudia S.A.S
 favicon: /tamalescaludia2.ico
 background: ./assets/fondo1.png
+css: styles/custom.css
 ---
 
-<img src="./assets/picante-removebg.png" alt="Tamal icono" class="mx-auto mb-10 w-32 h-32 opacity-90" />
+<img src="./assets/picante-removebg.png" alt="Tamal icono" class="mx-auto mb-6 w-24 h-24" />
 
-# Elementos Financieros
+# <span class="font-ui-monospace text-[50px] tracking-wide uppercase">Elementos Financieros</span>
 
-## Tamales Doña Claudia
+<!-- 
+  font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+-->
+
+## <span class="font-ui-monospace font-bold text-[75px] uppercase leading-tight">Tamales Doña Claudia</span>
 
 ---
 layout: image
@@ -51,8 +58,68 @@ image: ./assets/fondo2.png
 </div>
 
 ---
+layout: image
+image: /assets/fondo3.png
+class: flex flex-col items-center justify-center px-10 py-12
+---
 
+<div class="text-center text-[#253754]">
+  <p class="text-xl font-light leading-none">Tabla de</p>
+  <h1 class="text-3xl font-bold leading-tight mt-1">Contenido</h1>
+</div>
 
+<div class="text-[#253754] text-[12px] font-medium space-y-2 w-full max-w-md mt-6">
+
+<a href="#antecedentes" class="flex justify-between hover:underline">
+  <span>• Antecedentes del Negocio</span><span class="font-bold">01</span>
+</a>
+
+<a href="#ventas" class="flex justify-between hover:underline">
+  <span>• Ventas Mensuales</span><span class="font-bold">02</span>
+</a>
+
+<a href="#costo-unitario" class="flex justify-between hover:underline">
+  <span>• Costo de Producción por Unidad</span><span class="font-bold">03</span>
+</a>
+
+<a href="#resumen" class="flex justify-between hover:underline">
+  <span>• Resumen Financiero del Periodo</span><span class="font-bold">04</span>
+</a>
+
+<a href="#ingresos" class="flex justify-between hover:underline">
+  <span>• Ingresos por Ventas</span><span class="font-bold">05</span>
+</a>
+
+<a href="#costos-totales" class="flex justify-between hover:underline">
+  <span>• Total de Costos de Producción</span><span class="font-bold">06</span>
+</a>
+
+<a href="#netos" class="flex justify-between hover:underline">
+  <span>• Ingresos Netos</span><span class="font-bold">07</span>
+</a>
+
+<a href="#costos-ingresos" class="flex justify-between hover:underline">
+  <span>• Costos Correspondientes a los Ingresos</span><span class="font-bold">08</span>
+</a>
+
+<a href="#operacion" class="flex justify-between hover:underline">
+  <span>• Gastos de Operación</span><span class="font-bold">09</span>
+</a>
+
+<a href="#operativos" class="flex justify-between hover:underline">
+  <span>• Gastos Operativos</span><span class="font-bold">10</span>
+</a>
+
+<!-- Sublista de utilidades -->
+<p class="mt-4 font-bold">• Utilidades</p>
+<ul class="ml-6 list-disc list-inside space-y-1">
+  <li><a href="#utilidad-operativa" class="hover:underline">Utilidad Operativa</a></li>
+  <li><a href="#utilidad-impuestos" class="hover:underline">Utilidad Antes de Impuestos</a></li>
+  <li><a href="#utilidad-neta" class="hover:underline">Utilidad Neta</a></li>
+</ul>
+
+</div>
+---
 
 # 📊 Resumen Ejecutivo - Abril 2025
 
