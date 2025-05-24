@@ -199,12 +199,12 @@ class: px-8 py-12
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 max-w-6xl mx-auto text-center text-white">
 
   <div class="bg-white/5 backdrop-blur-sm p-4 rounded-xl shadow-md">
-    <div class="text-2xl font-bold text-yellow-400">2,950</div>
+    <div class="text-2xl font-bold text-yellow-400">6,400</div>
     <div class="text-xs mt-1 text-blue-100">Tamales Producidos</div>
   </div>
 
   <div class="bg-white/5 backdrop-blur-sm p-4 rounded-xl shadow-md">
-    <div class="text-2xl font-bold text-sky-400">$10,010</div>
+    <div class="text-2xl font-bold text-sky-400">$10,000</div>
     <div class="text-xs mt-1 text-blue-100">Costo Unitario</div>
   </div>
 
@@ -238,13 +238,13 @@ class: px-10 py-12
 
   <div>
     <p class="text-sm text-white mb-1">Unidades Producidas</p>
-    <p class="text-3xl font-bold text-white">2,950</p>
+    <p class="text-3xl font-bold text-white">6,400</p>
     <p class="text-xs text-white mt-1">Tamales mensuales</p>
   </div>
 
   <div>
     <p class="text-sm text-white mb-1">Costo Unitario</p>
-    <p class="text-3xl font-bold text-amber-400">$10,010</p>
+    <p class="text-3xl font-bold text-amber-400">$10,000</p>
     <p class="text-xs text-white mt-1">Por tamal</p>
   </div>
 
@@ -499,10 +499,7 @@ layout: image
 image: /assets/fondo10.png
 ---
 
-
-<div class="text-center">
-  <span class="text-2xl md:text-3xl font-semibold text-slate-700">Gastos Administrativos y de Ventas</span>
-</div>
+# <span class="text-2xl md:text-3xl font-semibold text-slate-700">Gastos Administrativos y de Ventas</span>
 
 <div class="max-w-6xl mx-auto mt-8">
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
