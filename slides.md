@@ -10,7 +10,7 @@ background: ./assets/fondo1.png
 css: styles/custom.css
 ---
 
-<img src="./assets/picante-removebg.png" alt="Tamal icono" class="mx-auto mb-6 w-24 h-24" />
+<img src="./assets/picante.png" alt="Tamal icono" class="mx-auto mb-6 w-24 h-24" />
 
 # <span class="font-ui-monospace text-[50px] tracking-wide uppercase">Elementos Financieros</span>
 
