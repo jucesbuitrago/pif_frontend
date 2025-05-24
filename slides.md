@@ -1,60 +1,53 @@
 ---
 theme: seriph
-layout: chat-layout
+layout: cover
 class: text-center
-background: linear-gradient(120deg, #1a365d, #2c5282)
 color: white
 mdc: true
+title: Tamales Doña Claudia S.A.S
+favicon: /tamalescaludia2.ico
+background: assets/fondo1.png
 ---
 
+<img src="./assets/picante-removebg.png" alt="Tamal icono" class="mx-auto mb-6 w-24 h-24" />
 
-# 📊 INFORME FINANCIERO
+# <span class="font-glacial text-[50px] tracking-wide uppercase">Elementos Financieros</span>
 
-## Tamales Doña Claudia S.A.S
-
-### ABRIL 2025
-
-<div class="absolute bottom-20 left-0 right-0">
-  <div class="flex flex-wrap justify-center gap-3 px-4">
-    <span class="px-4 py-2 bg-white/10 rounded-full backdrop-blur-sm text-sm md:text-base">🌽 Tradición</span>
-    <span class="px-4 py-2 bg-white/10 rounded-full backdrop-blur-sm text-sm md:text-base">📈 Crecimiento</span>
-    <span class="px-4 py-2 bg-white/10 rounded-full backdrop-blur-sm text-sm md:text-base">💼 Resultados</span>
-  </div>
-</div>
+## <span class="font-glacial font-bold text-[75px] uppercase leading-tight">Tamales Doña Claudia</span>
 
 ---
+layout: center
+class: px-10 py-16 text-left
+background: ./assets/fondo2.png
+---
 
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
 
-
-# 👩‍🍳 Nuestra Historia
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 max-w-5xl mx-auto">
-  <div class="space-y-6">
-    <div class="p-6 bg-white/5 rounded-xl backdrop-blur-sm border border-white/10">
-      <div class="text-2xl text-amber-300 mb-3 font-semibold">2010</div>
-      <p class="text-base leading-relaxed">Fundación de Tamales Doña Claudia como emprendimiento familiar en el corazón del Tolima.</p>
-    </div>
+  <!-- Columna de texto -->
+  <div>
+    <h2 class="text-4xl font-bold tracking-wide text-blue-900 uppercase mb-6">Integrantes</h2>
     
-  <div class="p-6 bg-white/5 rounded-xl backdrop-blur-sm border border-white/10">
-    <div class="text-2xl text-amber-300 mb-3 font-semibold">Tradición</div>
-    <p class="text-base leading-relaxed">Recetas auténticas tolimenses transmitidas por generaciones, manteniendo la esencia familiar.</p>
+  <ul class="space-y-5 text-lg text-blue-900 font-medium">
+    <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
+      <span>Buitrago Morales Julio Cesar</span>
+      <span class="text-sm font-mono">085400502022</span>
+    </li>
+    <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
+      <span>Romero Bonilla Cristian Camilo</span>
+      <span class="text-sm font-mono">085400522022</span>
+    </li>
+    <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
+      <span>Vargas Homez Paula Valentina</span>
+      <span class="text-sm font-mono">085400142022</span>
+    </li>
+  </ul>
   </div>
 
-  <div class="p-6 bg-white/5 rounded-xl backdrop-blur-sm border border-white/10">
-    <div class="text-2xl text-amber-300 mb-3 font-semibold">2025</div>
-    <p class="text-base leading-relaxed">Fábrica consolidada en Picaleña con puntos de venta estratégicos en Pola y Jardín.</p>
+  <!-- Imagen decorativa -->
+  <div class="flex justify-center">
+    <img src="/assets/icono-tamal.png" alt="Equipo humano" class="max-w-xs md:max-w-md">
   </div>
-  </div>
-  
-  <div class="flex items-center justify-center">
-    <div class="w-full h-80 bg-gradient-to-br from-amber-600/20 to-amber-800/20 rounded-2xl border-2 border-amber-400/30 flex items-center justify-center">
-      <div class="text-center text-amber-200">
-        <div class="text-6xl mb-4">🫔</div>
-        <p class="text-lg font-medium">Tamales Doña Claudia</p>
-        <p class="text-sm">Tradición y Calidad</p>
-      </div>
-    </div>
-  </div>
+
 </div>
 
 ---
@@ -137,7 +130,9 @@ mdc: true
 
 ---
 
-
+---
+class: estado-flujo
+---
 
 # 🏭 Análisis de Costos de Producción
 

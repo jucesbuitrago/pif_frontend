@@ -3,41 +3,65 @@ import { defineConfig } from 'slidev/configure'
 export default defineConfig({
   // Configuración del tema
   theme: {
-    // Puedes personalizar los colores aquí
+    // Configuración de fuentes
+    fontFamily: {
+      sans: 'Glacial Indifference, sans-serif',
+      mono: 'monospace',
+    },
+    // Colores personalizados
     colors: {
-      primary: '#3b82f6', // azul
-      secondary: '#6b7280',  // gris
-      success: '#10b981',    // verde
-      warning: '#f59e0b',    // ámbar
-      error: '#ef4444',     // rojo
+      primary: 'var(--slidev-theme-primary, #3b82f6)',
+      secondary: 'var(--slidev-theme-secondary, #6b7280)',
+      success: 'var(--slidev-theme-success, #10b981)',
+      warning: 'var(--slidev-theme-warning, #f59e0b)',
+      error: 'var(--slidev-theme-error, #ef4444)',
     },
   },
   
   // Configuración del editor
   editor: {
-    // Habilitar o deshabilitar la edición en vivo
     enabled: true,
   },
   
   // Configuración de dibujo
   drawings: {
-    // Persistir dibujos entre recargas
     persist: false,
   },
   
   // Configuración de exportación
   export: {
-    // Formato de exportación por defecto
     format: 'pdf',
-    // Incluir el código fuente en la exportación
     withToc: true,
   },
   
   // Configuración del servidor de desarrollo
   server: {
-    // Puerto del servidor de desarrollo
     port: 3030,
-    // Abrir automáticamente en el navegador
     open: true,
   },
-})
+  
+  // Configuración de estilos globales
+  css: {
+    preflight: true,
+    base: true,
+    utilities: true,
+    components: true,
+  },
+  
+  // Configuración de Tailwind
+  tailwind: {
+    config: './tailwind.config.js',
+  },
+  
+  // Configuración de Vite
+  vite: {
+    css: {
+      postcss: {
+        plugins: [
+          require('tailwindcss'),
+          require('autoprefixer'),
+        ],
+      },
+    },
+  },
+});

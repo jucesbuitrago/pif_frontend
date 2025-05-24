@@ -1,0 +1,94 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Fuente Glacial Indifference */
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Estilos base */
+@layer base {
+  :root {
+    --slidev-theme-primary: #3b82f6;
+    --slidev-theme-secondary: #6b7280;
+    --slidev-theme-success: #10b981;
+    --slidev-theme-warning: #f59e0b;
+    --slidev-theme-error: #ef4444;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-glacial;
+  }
+
+  h1 {
+    @apply text-6xl font-bold mb-6;
+  }
+  
+  h2 {
+    @apply text-5xl font-bold mb-4;
+  }
+  
+  h3 {
+    @apply text-4xl font-bold mb-3;
+  }
+}
+
+/* Estilos para el tema oscuro */
+.dark {
+  color-scheme: dark;
+  --slidev-theme-primary: #60a5fa;
+  --slidev-theme-secondary: #9ca3af;
+  --slidev-theme-success: #34d399;
+  --slidev-theme-warning: #fbbf24;
+  --slidev-theme-error: #f87171;
+}
+
+/* Mejoras de legibilidad */
+.slidev-layout {
+  @apply text-left p-16;
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  }
+  
+  p, li {
+    @apply text-gray-200 text-xl leading-relaxed;
+  }
+}
+
+/* Ajustes para el contenedor principal */
+#slide-content {
+  @apply h-full w-full flex flex-col justify-center items-center;
+}
+
+/* Clases de utilidad */
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-400;
+}
+
+/* Ajustes para las diapositivas de título */
+.slidev-layout.cover {
+  @apply flex flex-col justify-center items-center text-center;
+  
+  h1 {
+    @apply text-7xl md:text-8xl font-bold mb-8 text-gradient;
+  }
+  
+  h2 {
+    @apply text-5xl md:text-6xl font-bold text-white/90 mb-12;
+  }
+}
