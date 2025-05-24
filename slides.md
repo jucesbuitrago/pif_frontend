@@ -409,116 +409,86 @@ layout: image
 image: /assets/fondo9.png
 ---
 
-# Gastos Operacionales
+<div class="text-center">
+  <span class="text-2xl md:text-3xl font-semibold text-slate-700">Gastos Operacionales</span>
+</div>
 
 <div class="max-w-5xl mx-auto mt-6">
   <!-- Resumen de Gastos -->
-  <div class="bg-gradient-to-r from-orange-900/60 to-red-900/60 p-6 rounded-2xl border border-orange-700/30 mb-6">
+  <div class="bg-[#4E95D4] p-6 rounded-2xl border border-[#4E95D4]/30 mb-6">
     <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
       <h3 class="text-xl font-bold text-white">Total Gastos Operacionales</h3>
-      <span class="bg-orange-800/50 px-3 py-1 rounded-full text-sm text-orange-100">6.58% de Ingresos</span>
+      <span class="bg-[#4E95D4]/50 px-3 py-1 rounded-full text-sm text-white">6.58% de Ingresos</span>
     </div>
     <div class="text-4xl font-bold text-white">$4,210,000</div>
   </div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
     <!-- Desglose de Gastos -->
-    <div class="bg-green-900 p-5 rounded-2xl border border-green-700">
-      <h4 class="text-lg font-medium text-white mb-4">Distribución de Gastos</h4>
+    <div class="bg-[#15572F] backdrop-blur-sm p-3 rounded-2xl border border-[#15572F]/30">
+      <h4 class="text-sm font-medium text-white mb-2">Distribución de Gastos</h4>
       
-  <div class="space-y-4">
+  <div class="space-y-2">
     <div>
-      <div class="flex justify-between items-center mb-1">
-        <span class="text-orange-300 text-sm">🏠 Arriendos</span>
-        <span class="font-mono text-white text-sm">$1.8M</span>
+      <div class="flex justify-between items-center mb-0.5">
+        <span class="text-white text-xs">Arriendos</span>
+        <span class="font-mono text-white text-xs">$1.8M</span>
       </div>
-      <div class="w-full bg-orange-900/30 rounded-full h-2.5">
-        <div class="bg-orange-500 h-2.5 rounded-full" style="width: 42.8%"></div>
+      <div class="w-full bg-[#4E95D4]/30 rounded-full h-1.5">
+        <div class="bg-[#4E95D4] h-1.5 rounded-full" style="width: 42.8%"></div>
       </div>
-      <div class="text-xs text-orange-200 mt-0.5">42.8% del total</div>
+      <div class="text-xs text-white mt-0.5">42.8% del total</div>
     </div>
   
   <div>
-    <div class="flex justify-between items-center mb-1">
-      <span class="text-blue-300 text-sm">⚡ Servicios</span>
-      <span class="font-mono text-white text-sm">$1.7M</span>
+    <div class="flex justify-between items-center mb-0.5">
+      <span class="text-white text-xs">Servicios</span>
+      <span class="font-mono text-white text-xs">$1.7M</span>
     </div>
-    <div class="w-full bg-blue-900/30 rounded-full h-2.5">
-      <div class="bg-blue-500 h-2.5 rounded-full" style="width: 40.4%"></div>
+    <div class="w-full bg-[#4E95D4]/30 rounded-full h-1.5">
+      <div class="bg-[#4E95D4] h-1.5 rounded-full" style="width: 40.4%"></div>
     </div>
-    <div class="text-xs text-blue-200 mt-0.5">40.4% del total</div>
+    <div class="text-xs text-white mt-0.5">40.4% del total</div>
   </div>
         
   <div>
-    <div class="flex justify-between items-center mb-1">
-      <span class="text-green-300 text-sm">🚚 Transporte</span>
-      <span class="font-mono text-white text-sm">$410K</span>
+    <div class="flex justify-between items-center mb-0.5">
+      <span class="text-white text-xs">Transporte</span>
+      <span class="font-mono text-white text-xs">$410K</span>
     </div>
-    <div class="w-full bg-green-900/30 rounded-full h-2.5">
-      <div class="bg-green-500 h-2.5 rounded-full" style="width: 9.7%"></div>
+    <div class="w-full bg-[#4E95D4]/30 rounded-full h-1.5">
+      <div class="bg-[#4E95D4] h-1.5 rounded-full" style="width: 9.7%"></div>
     </div>
-    <div class="text-xs text-green-200 mt-0.5">9.7% del total</div>
+    <div class="text-xs text-white mt-0.5">9.7% del total</div>
   </div>
         
   <div>
-    <div class="flex justify-between items-center mb-1">
-      <span class="text-purple-300 text-sm">🔧 Mantenimiento</span>
-      <span class="font-mono text-white text-sm">$300K</span>
+    <div class="flex justify-between items-center mb-0.5">
+      <span class="text-white text-xs">Mantenimiento</span>
+      <span class="font-mono text-white text-xs">$300K</span>
     </div>
-    <div class="w-full bg-purple-900/30 rounded-full h-2.5">
-      <div class="bg-purple-500 h-2.5 rounded-full" style="width: 7.1%"></div>
+    <div class="w-full bg-[#4E95D4]/30 rounded-full h-1.5">
+      <div class="bg-[#4E95D4] h-1.5 rounded-full" style="width: 7.1%"></div>
     </div>
-    <div class="text-xs text-purple-200 mt-0.5">7.1% del total</div>
+    <div class="text-xs text-white mt-0.5">7.1% del total</div>
   </div>
 </div>
 </div>
 
   <!-- Análisis y Tendencias -->
   <div class="space-y-4">
-    <div class="bg-green-900 p-5 rounded-2xl border border-green-700">
-      <h4 class="text-md font-medium text-white mb-3">💡 Análisis</h4>
-      <div class="space-y-3 text-xs">
-        <div class="flex items-start gap-2">
-          <div class="text-amber-400 text-sm mt-0.5">📊</div>
-          <div>
-            <p class="text-white font-medium">Concentración de Gastos</p>
-            <p class="text-gray-300">83.2% en arriendo y servicios</p>
-          </div>
-        </div>
-        <div class="flex items-start gap-2">
-          <div class="text-green-400 text-sm mt-0.5">📉</div>
-          <div>
-            <p class="text-white font-medium">Optimización Logística</p>
-            <p class="text-gray-300">-8% en gastos de transporte</p>
-          </div>
-        </div>
-        <div class="flex items-start gap-2">
-          <div class="text-blue-400 text-sm mt-0.5">🎯</div>
-          <div>
-            <p class="text-white font-medium">Control Eficiente</p>
-            <p class="text-gray-300">Gastos <7% de ingresos</p>
-          </div>
-        </div>
+    <div class="bg-[#FFC507] p-5 rounded-2xl border border-[#FFC507]/30">
+      <h4 class="text-lg font-semibold text-white mb-3">Análisis</h4>
+      <div class="space-y-3 text-sm">
+        <span class="text-white font-semibold">Concentración de Gastos</span><br>
+        <span class="text-[#1A8D3F] font-bold">83.2% en arriendo y servicios</span><br>
+        <span class="text-white font-semibold">Optimización Logística</span><br>
+        <span class="text-[#1A8D3F] font-bold">-8% en gastos de transporte</span><br>
+        <span class="text-white font-semibold">Control Eficiente</span><br>
+        <span class="text-[#1A8D3F] font-bold">Gastos <7% de ingresos</span>
       </div>
     </div>
-
-  <div class="bg-amber-900/30 p-5 rounded-2xl border border-amber-700/30">
-    <h4 class="text-md font-medium text-amber-100 mb-3">🎯 Recomendaciones</h4>
-    <ul class="space-y-2 text-xs text-amber-200">
-      <li class="flex items-start gap-2">
-        <span class="text-amber-400 font-bold">•</span>
-        <span>Renegociar contratos de arriendo</span>
-      </li>
-      <li class="flex items-start gap-2">
-        <span class="text-amber-400 font-bold">•</span>
-        <span>Implementar ahorro energético</span>
-      </li>
-      <li class="flex items-start gap-2">
-        <span class="text-amber-400 font-bold">•</span>
-        <span>Mantener eficiencia logística</span>
-      </li>
-    </ul>
-  </div>
+    <br>
   </div>
 
   </div>
