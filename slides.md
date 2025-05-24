@@ -372,12 +372,12 @@ image: /assets/fondo7.png
       <div class="space-y-2">
         <div>
           <div class="text-white text-sm">Precio Promedio</div>
-          <div class="text-2xl font-bold text-white">$21,695</div>
+          <div class="text-2xl font-bold text-white">$10,000</div>
           <div class="text-xs text-white">Por tamal vendido</div>
         </div>
         <div>
           <div class="text-white text-sm">Unidades Vendidas</div>
-          <div class="text-2xl font-bold text-white">2,950</div>
+          <div class="text-2xl font-bold text-white">6,400</div>
           <div class="text-xs text-white">Tamales en abril</div>
         </div>
       </div>
@@ -516,11 +516,11 @@ image: /assets/fondo10.png
   
   <div class="space-y-4">
     <div class="bg-[#4E95D4] p-4 rounded-lg">
-      <div class="text-[#4E95D4]/70 text-sm mb-1">Concepto</div>
+      <div class="text-white text-sm mb-1">Concepto</div>
       <div class="text-white font-medium">Nómina Operativa Mensual</div>
     </div>
     <div class="bg-[#4E95D4] p-4 rounded-lg">
-      <div class="text-[#4E95D4]/70 text-sm mb-1">Participación</div>
+      <div class="text-white text-sm mb-1">Participación</div>
       <div class="text-white font-medium">79.3% del total de gastos administrativos</div>
     </div>
   </div>
