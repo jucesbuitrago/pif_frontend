@@ -503,6 +503,7 @@ image: /assets/fondo10.png
 <div class="text-center">
   <span class="text-2xl md:text-3xl font-semibold text-slate-700">Gastos Administrativos y de Ventas</span>
 </div>
+
 <div class="max-w-6xl mx-auto mt-8">
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
     <!-- Nómina Operativa -->
@@ -566,132 +567,136 @@ image: /assets/fondo10.png
 </div>
 
 ---
+layout: image
+image: /assets/fondo4.png
+---
 
+<div class="text-center"> 
+  <span class="text-2xl md:text-3xl font-semibold text-slate-700">Estado de Resultados</span>
+</div>
 
-
-# Estado de Resultados
-
-<div class="max-w-4xl mx-auto mt-6">
-  <div class="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 overflow-hidden text-sm">
+<div class="max-w-4xl mx-auto mt-6 text-[0.5rem] leading-none">
+  <div class="bg-[#253754] backdrop-blur-sm rounded-2xl border border-white/10 overflow-hidden">
     <!-- Header -->
-    <div class="bg-gradient-to-r from-blue-900/60 to-blue-800/60 p-4 border-b border-blue-700/30">
-      <h3 class="text-xl font-bold text-white">Estado de Resultados - Abr 2025</h3>
-      <p class="text-blue-200 text-xs mt-1">Tamales Doña Claudia S.A.S</p>
+    <div class="bg-gradient-to-r from-[#253754]/60 to-[#253754]/50 p-1 border-b border-white/30">
+      <h3 class="text-[0.7rem] font-bold text-white">Estado de Resultados - Abr 2025</h3>
+      <br>
+      <span class="text-[0.6rem] text-white">Tamales Doña Claudia S.A.S</span>
     </div>
     
 <!-- Contenido -->
-<div class="p-5 space-y-4">
+<div class="p-1 space-y-0.5">
 <!-- Ingresos -->
-<div class="flex justify-between items-center py-3 border-b border-gray-600">
+<div class="flex justify-between items-center py-0.5 border-b border-white/30">
   <span class="text-white font-medium">Ingresos Operacionales</span>
-  <span class="text-lg font-bold text-white">$64.0M</span>
+  <span class="text-[0.7rem] font-bold text-white">$64.0M</span>
 </div>
 
 <!-- Costo de Ventas -->
 <div>
-  <div class="flex justify-between items-center py-1">
-    <span class="text-gray-300">(-) Costo de Ventas</span>
-    <span class="text-gray-300">$29.5M</span>
+  <div class="flex justify-between items-center py-0.5">
+    <span class="text-white">(-) Costo de Ventas</span>
+    <span class="text-[0.7rem] text-white">$29.5M</span>
   </div>
-  <div class="ml-4 space-y-0.5 text-xs text-gray-400">
+  <div class="ml-1 space-y-0.5 text-[0.5rem] text-white">
     <div class="flex justify-between">
-      <span>• Materia Prima</span>
-      <span>$8.2M</span>
+      <span class="text-white">• Materia Prima</span>
+      <span class="text-white">$8.2M</span>
     </div>
     <div class="flex justify-between">
-      <span>• Mano de Obra</span>
-      <span>$21.3M</span>
+      <span class="text-white">• Mano de Obra</span>
+      <span class="text-white">$21.3M</span>
     </div>
   </div>
 </div>
 
 <!-- Utilidad Bruta -->
-<div class="flex justify-between items-center py-3 border-b-2 border-blue-500/50">
-  <span class="text-blue-300 font-medium">Utilidad Bruta</span>
-  <span class="text-lg font-bold text-blue-300">$34.5M</span>
+<div class="flex justify-between items-center py-0.5 border-b-2 border-white/50">
+  <span class="text-white font-medium">Utilidad Bruta</span>
+  <span class="text-[0.7rem] font-bold text-white">$34.5M</span>
 </div>
 
 <!-- Gastos Operacionales -->
 <div>
-  <div class="flex justify-between items-center py-1">
-    <span class="text-gray-300">(-) Gastos Operacionales</span>
-    <span class="text-gray-300">$4.2M</span>
+  <div class="flex justify-between items-center py-0.5">
+    <span class="text-white">(-) Gastos Operacionales</span>
+    <span class="text-[0.7rem] text-white">$4.2M</span>
   </div>
-  <div class="ml-4 space-y-0.5 text-xs text-gray-400">
+  <div class="ml-1 space-y-0.5 text-[0.5rem] text-white">
     <div class="flex justify-between">
-      <span>• Arriendos</span>
-      <span>$1.8M</span>
+      <span class="text-white">• Arriendos</span>
+      <span class="text-white">$1.8M</span>
     </div>
     <div class="flex justify-between">
-      <span>• Servicios</span>
-      <span>$1.7M</span>
+      <span class="text-white">• Servicios</span>
+      <span class="text-white">$1.7M</span>
     </div>
     <div class="flex justify-between">
-      <span>• Transporte</span>
-      <span>$410K</span>
+      <span class="text-white">• Transporte</span>
+      <span class="text-white">$410K</span>
     </div>
     <div class="flex justify-between">
-      <span>• Mantenimiento</span>
-      <span>$300K</span>
+      <span class="text-white">• Mantenimiento</span>
+      <span class="text-white">$300K</span>
     </div>
   </div>
 </div>
 
 <!-- Gastos Administrativos -->
-<div class="pb-1 border-b border-gray-700">
-  <div class="flex justify-between items-center py-1">
-    <span class="text-gray-300">(-) Gastos Administrativos</span>
-    <span class="text-gray-300">$18.6M</span>
+<div class="pb-0.5 border-b border-white/30">
+  <div class="flex justify-between items-center py-0.5">
+    <span class="text-white">(-) Gastos Administrativos</span>
+    <span class="text-[0.7rem] text-white">$18.6M</span>
   </div>
-  <div class="ml-4 text-xs text-gray-400">
+  <div class="ml-1 text-[0.5rem] text-white">
     <div class="flex justify-between">
-      <span>• Nómina Admin</span>
-      <span>$18.6M</span>
+      <span class="text-white">• Nómina Admin</span>
+      <span class="text-white">$18.6M</span>
     </div>
   </div>
 </div>
 
 <!-- Utilidad Operativa -->
-<div class="flex justify-between items-center py-3 border-b-2 border-green-500/50">
-  <span class="text-green-300 font-medium">Utilidad Operativa</span>
-  <span class="text-lg font-bold text-green-300">$11.7M</span>
+<div class="flex justify-between items-center py-0.5 border-b-2 border-white/50">
+  <span class="text-white font-medium">Utilidad Operativa</span>
+  <span class="text-[0.7rem] font-bold text-white">$11.7M</span>
 </div>
 
 <!-- Otros Ingresos y Gastos -->
-<div class="space-y-1">
+<div class="space-y-0.5">
   <div class="flex justify-between">
-    <span class="text-gray-300">(+) Otros Ingresos</span>
-    <span class="text-green-300">$0</span>
+    <span class="text-white">(+) Otros Ingresos</span>
+    <span class="text-white">$0</span>
   </div>
-  <div class="flex justify-between">
-    <span class="text-gray-300">(-) Gastos Financieros</span>
-    <span class="text-red-300">$1.6M</span>
+  <div class="flex justify-between"> 
+    <span class="text-white">(-) Gastos Financieros</span>
+    <span class="text-white">$1.6M</span>
   </div>
 </div>
 
 <!-- Utilidad Antes de Impuestos -->
-<div class="flex justify-between items-center pt-3 border-t border-gray-700">
+<div class="flex justify-between items-center pt-0.5 border-t border-white/30">
   <span class="text-white font-medium">Utilidad Antes de Impuestos</span>
-  <span class="text-lg font-bold text-white">$10.1M</span>
+  <span class="text-[0.7rem] font-bold text-white">$10.1M</span>
 </div>
 
 <!-- Impuestos -->
-<div class="flex justify-between items-center pb-3 border-b-2 border-amber-500/50">
-  <span class="text-amber-300">(-) Impuesto Renta (33%)</span>
-  <span class="text-amber-300 font-mono">$3.3M</span>
+<div class="flex justify-between items-center pb-0.5 border-b-2 border-white/50">
+  <span class="text-white">(-) Impuesto Renta (33%)</span>
+  <span class="text-[0.7rem] font-mono text-white">$3.3M</span>
 </div>
 
 <!-- Utilidad Neta -->
-<div class="flex justify-between items-center py-3 bg-gradient-to-r from-green-900/30 to-green-800/30 -mx-5 px-5">
-  <span class="text-xl text-white font-bold">UTILIDAD NETA</span>
-  <span class="text-2xl font-extrabold text-green-300">$6.7M</span>
+<div class="flex justify-between items-center py-0.5 bg-gradient-to-r from-white/30 to-white/50 -mx-2 px-2">
+  <span class="text-[0.7rem] text-white font-bold">UTILIDAD NETA</span>
+  <span class="text-[0.7rem] font-extrabold text-white">$6.7M</span>
 </div>
 
 <!-- Margen Neto -->
-<div class="text-center pt-3 border-t border-gray-700">
-  <div class="inline-block bg-green-900/30 px-3 py-1.5 rounded-lg border border-green-800/50 text-sm">
-    <span class="text-green-200">Margen Neto: </span>
-    <span class="font-bold text-green-300">15.7%</span>
+<div class="text-center pt-0.5 border-t border-white/30">
+  <div class="inline-block bg-white/30 px-2 py-0.5 rounded-lg border border-white/50 text-[0.5rem]">
+    <span class="text-white">Margen Neto: </span>
+    <span class="font-bold text-white">15.7%</span>
   </div>
 </div>
 </div>
