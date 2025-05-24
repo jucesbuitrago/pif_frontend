@@ -151,8 +151,11 @@ image: /assets/fondo4.png
 </section>
 
 ---
+layout: image
+image: /assets/fondo5.png
+---
 
-# 📊 Resumen Ejecutivo - Abril 2025
+# Resumen Ejecutivo - Abril 2025
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-8">
   <!-- Tarjeta de Ventas -->
@@ -213,7 +216,9 @@ image: /assets/fondo4.png
 </div>
 
 ---
-
+layout: image
+image: /assets/fondo4.png
+---
 
 
 <div class="text-center px-6 py-16 max-w-4xl mx-auto">
@@ -227,12 +232,11 @@ image: /assets/fondo4.png
 </div>
 
 ---
-
+layout: image
+image: /assets/fondo6.png
 ---
-class: estado-flujo
----
 
-# 🏭 Análisis de Costos de Producción
+# Análisis de Costos de Producción
 
 <div class="max-w-6xl mx-auto mt-8">
   <!-- Resumen Principal -->
@@ -318,10 +322,11 @@ class: estado-flujo
 </div>
 
 ---
+layout: image
+image: /assets/fondo7.png
+---
 
-
-
-# 💰 Estructura de Ingresos
+# Estructura de Ingresos
 
 <div class="max-w-6xl mx-auto mt-8">
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -407,10 +412,13 @@ class: estado-flujo
 </div>
 
 ---
+layout: image
+image: /assets/fondo8.png
+---
 
 
 
-# 🏢 Gastos Operacionales
+# Gastos Operacionales
 
 <div class="max-w-5xl mx-auto mt-6">
   <!-- Resumen de Gastos -->
@@ -529,7 +537,7 @@ class: estado-flujo
 
 
 
-# 💼 Gastos Administrativos y de Ventas
+# Gastos Administrativos y de Ventas
 
 <div class="max-w-6xl mx-auto mt-8">
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -597,7 +605,7 @@ class: estado-flujo
 
 
 
-# 📈 Estado de Resultados
+# Estado de Resultados
 
 <div class="max-w-4xl mx-auto mt-6">
   <div class="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 overflow-hidden text-sm">
@@ -731,7 +739,7 @@ class: estado-flujo
 
 
 
-# 🏢 Gastos de Operación
+# Gastos de Operación
 
 <div class="max-w-4xl mx-auto">
   <div class="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-amber-200">
@@ -847,7 +855,7 @@ class: estado-flujo
 
 ---
 
-# 💼 Gastos Operativos
+# Gastos Operativos
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
   <div class="space-y-4">
@@ -894,13 +902,7 @@ class: estado-flujo
 
 ---
 
-layout: image-left
-image: https://cdn.pixabay.com/photo/2020/01/17/04/42/statistics-4777015_960_720.jpg
-class: text-left
-
----
-
-# 📈 Utilidades del Periodo
+# Utilidades del Periodo
 
 <div class="space-y-4">
   <div class="bg-white/5 p-4 rounded-xl backdrop-blur-sm">
