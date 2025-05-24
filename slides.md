@@ -16,35 +16,35 @@ background: assets/fondo1.png
 ## <span class="font-glacial font-bold text-[75px] uppercase leading-tight">Tamales Doña Claudia</span>
 
 ---
-layout: center
-class: px-10 py-16 text-left
-background: ./assets/fondo2.png
+layout: image
+image: /assets/fondo2.png
+class: px-16 py-14 text-left
 ---
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center ml-10 md:ml-28">
 
   <!-- Columna de texto -->
   <div>
     <h2 class="text-4xl font-bold tracking-wide text-blue-900 uppercase mb-6">Integrantes</h2>
     
-  <ul class="space-y-5 text-lg text-blue-900 font-medium">
-    <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
-      <span>Buitrago Morales Julio Cesar</span>
-      <span class="text-sm font-mono">085400502022</span>
-    </li>
-    <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
-      <span>Romero Bonilla Cristian Camilo</span>
-      <span class="text-sm font-mono">085400522022</span>
-    </li>
-    <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
-      <span>Vargas Homez Paula Valentina</span>
-      <span class="text-sm font-mono">085400142022</span>
-    </li>
-  </ul>
+    <ul class="space-y-5 text-lg text-blue-900 font-medium">
+      <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
+        <span>Buitrago Morales Julio Cesar</span>
+        <span class="text-sm font-mono">085400502022</span>
+      </li>
+      <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
+        <span>Romero Bonilla Cristian Camilo</span>
+        <span class="text-sm font-mono">085400522022</span>
+      </li>
+      <li class="flex items-center justify-between border-l-4 border-blue-800 pl-4">
+        <span>Vargas Homez Paula Valentina</span>
+        <span class="text-sm font-mono">085400142022</span>
+      </li>
+    </ul>
   </div>
 
   <!-- Imagen decorativa -->
-  <div class="flex justify-center">
+  <div class="flex justify-end pr-4">
     <img src="/assets/icono-tamal.png" alt="Equipo humano" class="max-w-xs md:max-w-md">
   </div>
 
