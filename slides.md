@@ -65,7 +65,7 @@ class: flex flex-col items-center justify-center px-10 py-12
  
 <div class="text-center text-[#253754]">
   <p class="text-xl font-light leading-none">Tabla de</p>
-  <h1 class="text-3xl font-bold leading-tight mt-1">Contenido</h1>
+  <h1 class="text-3xl font-bold leading-tight mt-1 text-[#253754]">Contenido</h1>
 </div>
 
 <div class="text-[#253754] text-[12px] font-medium space-y-2 w-full max-w-md mt-6">
@@ -162,7 +162,7 @@ class: px-8 py-12
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-10">
 
   <!-- Ingresos Totales -->
-  <div class="rounded-2xl p-6 bg-gradient-to-tr from-blue-800 to-blue-900 shadow-lg border border-blue-700/40">
+  <div class="rounded-2xl p-6 bg-[#4E95D4] shadow-lg border border-[#4E95D4]/40">
     <div class="flex justify-between items-center mb-3">
       <h2 class="text-lg font-semibold text-blue-100">Ingresos Totales</h2>
       <span class="text-xs bg-blue-700/60 text-white px-2 py-0.5 rounded-full">📈 +11.58%</span>
@@ -170,10 +170,10 @@ class: px-8 py-12
     <p class="text-4xl font-bold text-white mb-3">$64,000,000</p>
     <div class="text-sm text-blue-200 space-y-1">
       <div class="flex justify-between">
-        <span>Abril 2024:</span><span>$57,356,000</span>
+        <span class="text-white">Abril 2024:</span><span class="text-white">$57,356,000</span>
       </div>
       <div class="flex justify-between">
-        <span>Crecimiento:</span><span class="text-green-300 font-semibold">+$6,644,000</span>
+        <span class="text-white">Crecimiento:</span><span class="text-green-300 font-semibold">+$6,644,000</span>
       </div>
     </div>
   </div>
@@ -219,108 +219,96 @@ class: px-8 py-12
 
 ---
 layout: image
-image: /assets/fondo4.png
+image: /assets/fondo10.png
+class: px-10 py-12
 ---
 
+# <span class="text-3xl md:text-4xl font-semibold text-slate-700">Análisis de Costos de Producción</span>
 
-<div class="text-center px-6 py-16 max-w-4xl mx-auto">
-  <div class="text-6xl mb-8">✨</div>
-  <h2 class="text-3xl md:text-5xl font-bold text-white leading-tight mb-8">
-    "Cada tamal cuenta una historia.<br> 
-    Cada cifra refleja nuestro compromiso."
-  </h2>
-  <div class="text-amber-100 text-xl mb-4">— Tamales Doña Claudia</div>
-  <div class="text-amber-200 text-lg">15 años de tradición • Abril 2025</div>
-</div>
+<!-- Panel Superior -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto mt-10 text-center bg-[#15572F]/50 p-6 rounded-2xl border border-[#15572F]/30 shadow-md">
 
----
-layout: image
-image: /assets/fondo6.png
----
-
-# Análisis de Costos de Producción
-
-<div class="max-w-6xl mx-auto mt-8">
-  <!-- Resumen Principal -->
-  <div class="bg-gradient-to-r from-slate-800/50 to-slate-700/50 p-8 rounded-2xl border border-slate-600/30 mb-8">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-      <div>
-        <div class="text-sm text-slate-300 mb-2">Costo Total Mensual</div>
-        <div class="text-3xl font-bold text-white">$29,537,200</div>
-        <div class="text-xs text-slate-400 mt-1">Producción completa</div>
-      </div>
-      <div>
-        <div class="text-sm text-slate-300 mb-2">Unidades Producidas</div>
-        <div class="text-3xl font-bold text-white">2,950</div>
-        <div class="text-xs text-slate-400 mt-1">Tamales mensuales</div>
-      </div>
-      <div>
-        <div class="text-sm text-slate-300 mb-2">Costo Unitario</div>
-        <div class="text-3xl font-bold text-amber-400">$10,010</div>
-        <div class="text-xs text-slate-400 mt-1">Por tamal</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Distribución de Costos -->
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-    <div class="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10">
-      <h3 class="text-xl font-medium text-white mb-6">Estructura de Costos</h3>
-      
-  <div class="space-y-4">
-    <div>
-      <div class="flex justify-between items-center mb-2">
-        <span class="text-blue-300">Materia Prima</span>
-        <span class="font-mono text-white">$8,202,200 (28%)</span>
-      </div>
-      <div class="w-full bg-slate-700 rounded-full h-3">
-        <div class="bg-blue-500 h-3 rounded-full" style="width: 28%"></div>
-      </div>
-    </div>
-        
   <div>
-    <div class="flex justify-between items-center mb-2">
-      <span class="text-amber-300">Mano de Obra</span>
-      <span class="font-mono text-white">$21,335,000 (72%)</span>
-    </div>
-    <div class="w-full bg-slate-700 rounded-full h-3">
-      <div class="bg-amber-500 h-3 rounded-full" style="width: 72%"></div>
-    </div>
+    <p class="text-sm text-slate-300 mb-1">Costo Total Mensual</p>
+    <p class="text-3xl font-bold text-white">$29,537,200</p>
+    <p class="text-xs text-white mt-1">Producción completa</p>
   </div>
-</div>
+
+  <div>
+    <p class="text-sm text-slate-300 mb-1">Unidades Producidas</p>
+    <p class="text-3xl font-bold text-white">2,950</p>
+    <p class="text-xs text-white mt-1">Tamales mensuales</p>
+  </div>
+
+  <div>
+    <p class="text-sm text-slate-300 mb-1">Costo Unitario</p>
+    <p class="text-3xl font-bold text-amber-400">$10,010</p>
+    <p class="text-xs text-white mt-1">Por tamal</p>
+  </div>
+
 </div>
 
-<div class="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10">
-<h3 class="text-xl font-medium text-white mb-6">Análisis de Eficiencia</h3>
+<!-- Panel Inferior -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-10">
 
-<div class="space-y-4">
-  <div class="flex items-start space-x-3">
-    <div class="text-green-400 text-xl">✅</div>
+  <!-- Estructura de Costos -->
+  <div class="bg-blue-900/20 backdrop-blur-md p-6 rounded-2xl border border-blue-500/20 shadow-lg">
+    <h3 class="text-xl font-semibold text-white mb-5">Estructura de Costos</h3>
+
+  <div class="space-y-5 text-sm font-medium">
     <div>
-      <p class="text-white font-medium">Control de Costos Óptimo</p>
-      <p class="text-sm text-gray-300">Costo unitario competitivo en el mercado</p>
+      <div class="flex justify-between mb-1">
+        <span class="text-white">Materia Prima</span>
+        <span class="text-white font-mono">$8,202,200 (28%)</span>
+      </div>
+      <div class="w-full h-3 bg-slate-700 rounded-full">
+        <div class="h-full bg-sky-400 rounded-full" style="width: 28%"></div>
+      </div>
+    </div>
+
+  <div>
+    <div class="flex justify-between mb-1">
+      <span class="text-white">Mano de Obra</span>
+      <span class="text-white font-mono">$21,335,000 (72%)</span>
+    </div>
+    <div class="w-full h-3 bg-slate-700 rounded-full">
+      <div class="h-full bg-amber-400 rounded-full" style="width: 72%"></div>
     </div>
   </div>
+  </div>
+  </div>
 
-  <div class="flex items-start space-x-3">
-    <div class="text-blue-400 text-xl">📊</div>
+  <!-- Análisis de Eficiencia -->
+  <div class="bg-white/90 p-6 rounded-2xl border border-slate-200 shadow-sm">
+    <h3 class="text-xl font-semibold text-[#253754] mb-5">Análisis de Eficiencia</h3>
+
+  <div class="space-y-5 text-sm text-[#253754]">
+    <div class="flex items-start gap-3">
+      <span class="text-green-600 text-xl">✅</span>
+      <div>
+        <p class="font-semibold">Control de Costos Óptimo</p>
+        <p class="text-sm">Costo unitario competitivo en el mercado</p>
+      </div>
+    </div>
+
+  <div class="flex items-start gap-3">
+    <span class="text-blue-600 text-xl">📊</span>
     <div>
-      <p class="text-white font-medium">Distribución Equilibrada</p>
-      <p class="text-sm text-gray-300">72% mano de obra refleja calidad artesanal</p>
+      <p class="font-semibold">Distribución Equilibrada</p>
+      <p class="text-sm">72% mano de obra refleja calidad artesanal</p>
     </div>
   </div>
 
-  <div class="flex items-start space-x-3">
-    <div class="text-amber-400 text-xl">🎯</div>
+  <div class="flex items-start gap-3">
+    <span class="text-amber-500 text-xl">🎯</span>
     <div>
-      <p class="text-white font-medium">Margen Saludable</p>
-      <p class="text-sm text-gray-300">Costos representan 46.15% de ingresos</p>
+      <p class="font-semibold">Margen Saludable</p>
+      <p class="text-sm">Costos representan 46.15% de los ingresos</p>
     </div>
   </div>
-</div>
-</div>
+  </div>
+  </div>
 
-</div>
 </div>
 
 ---
@@ -355,12 +343,12 @@ image: /assets/fondo7.png
 </div>
 
   <!-- Comparativo Anual -->
-  <div class="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10">
+  <div class="bg-green-800/60 backdrop-blur-sm p-6 rounded-2xl border border-green-700/30">
     <h4 class="text-lg font-medium text-white mb-4">Comparativo Interanual</h4>
     <div class="space-y-3">
       <div class="flex justify-between items-center">
         <span class="text-gray-300">Abril 2024</span>
-        <span class="font-mono text-gray-400">$57,356,000</span>
+        <span class="font-mono text-white">$57,356,000</span>
       </div>
       <div class="flex justify-between items-center">
         <span class="text-gray-300">Abril 2025</span>
@@ -415,10 +403,8 @@ image: /assets/fondo7.png
 
 ---
 layout: image
-image: /assets/fondo8.png
+image: /assets/fondo9.png
 ---
-
-
 
 # Gastos Operacionales
 
@@ -434,7 +420,7 @@ image: /assets/fondo8.png
 
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
     <!-- Desglose de Gastos -->
-    <div class="bg-white/5 backdrop-blur-sm p-5 rounded-2xl border border-white/10">
+    <div class="bg-green-900 p-5 rounded-2xl border border-green-700">
       <h4 class="text-lg font-medium text-white mb-4">Distribución de Gastos</h4>
       
   <div class="space-y-4">
@@ -486,7 +472,7 @@ image: /assets/fondo8.png
 
   <!-- Análisis y Tendencias -->
   <div class="space-y-4">
-    <div class="bg-white/5 backdrop-blur-sm p-5 rounded-2xl border border-white/10">
+    <div class="bg-green-900 p-5 rounded-2xl border border-green-700">
       <h4 class="text-md font-medium text-white mb-3">💡 Análisis</h4>
       <div class="space-y-3 text-xs">
         <div class="flex items-start gap-2">
@@ -513,30 +499,32 @@ image: /assets/fondo8.png
       </div>
     </div>
 
-    <div class="bg-amber-900/30 p-5 rounded-2xl border border-amber-700/30">
-      <h4 class="text-md font-medium text-amber-100 mb-3">🎯 Recomendaciones</h4>
-      <ul class="space-y-2 text-xs text-amber-200">
-        <li class="flex items-start gap-2">
-          <span class="text-amber-400 font-bold">•</span>
-          <span>Renegociar contratos de arriendo</span>
-        </li>
-        <li class="flex items-start gap-2">
-          <span class="text-amber-400 font-bold">•</span>
-          <span>Implementar ahorro energético</span>
-        </li>
-        <li class="flex items-start gap-2">
-          <span class="text-amber-400 font-bold">•</span>
-          <span>Mantener eficiencia logística</span>
-        </li>
-      </ul>
-    </div>
+  <div class="bg-amber-900/30 p-5 rounded-2xl border border-amber-700/30">
+    <h4 class="text-md font-medium text-amber-100 mb-3">🎯 Recomendaciones</h4>
+    <ul class="space-y-2 text-xs text-amber-200">
+      <li class="flex items-start gap-2">
+        <span class="text-amber-400 font-bold">•</span>
+        <span>Renegociar contratos de arriendo</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="text-amber-400 font-bold">•</span>
+        <span>Implementar ahorro energético</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="text-amber-400 font-bold">•</span>
+        <span>Mantener eficiencia logística</span>
+      </li>
+    </ul>
+  </div>
   </div>
 
   </div>
 </div>
 
 ---
-
+layout: image
+image: /assets/fondo10.png
+---
 
 
 # Gastos Administrativos y de Ventas
@@ -961,6 +949,22 @@ layout: chat-layout
     <h3 class="text-xl font-bold text-amber-300 mb-2">Potencial</h3>
     <p class="text-gray-300">Listos para escalar operaciones</p>
   </div>
+</div>
+
+---
+layout: image
+image: /assets/fondo4.png
+---
+
+
+<div class="text-center px-6 py-16 max-w-4xl mx-auto">
+  <div class="text-6xl mb-8">✨</div>
+  <h2 class="text-3xl md:text-5xl font-bold text-white leading-tight mb-8">
+    "Cada tamal cuenta una historia.<br> 
+    Cada cifra refleja nuestro compromiso."
+  </h2>
+  <div class="text-amber-100 text-xl mb-4">— Tamales Doña Claudia</div>
+  <div class="text-amber-200 text-lg">15 años de tradición • Abril 2025</div>
 </div>
 
 ---
