@@ -153,65 +153,67 @@ image: /assets/fondo4.png
 ---
 layout: image
 image: /assets/fondo5.png
+class: px-8 py-12
 ---
 
-# Resumen Ejecutivo - Abril 2025
+# <span class="text-3xl md:text-4xl font-semibold text-white/90 tracking-wide">Resumen Ejecutivo - Abril 2025</span>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-8">
-  <!-- Tarjeta de Ventas -->
-  <div class="bg-gradient-to-br from-blue-900/80 to-blue-800/80 p-6 rounded-2xl shadow-xl border border-blue-700/50">
-    <div class="flex items-center justify-between mb-4">
-      <div class="text-blue-100 text-lg font-medium">Ingresos Totales</div>
-      <div class="bg-blue-800/50 px-3 py-1 rounded-full text-xs font-medium">📈 +11.58%</div>
+<!-- Panel de Indicadores Principales -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-10">
+
+  <!-- Ingresos Totales -->
+  <div class="rounded-2xl p-6 bg-gradient-to-tr from-blue-800 to-blue-900 shadow-lg border border-blue-700/40">
+    <div class="flex justify-between items-center mb-3">
+      <h2 class="text-lg font-semibold text-blue-100">Ingresos Totales</h2>
+      <span class="text-xs bg-blue-700/60 text-white px-2 py-0.5 rounded-full">📈 +11.58%</span>
     </div>
-    <div class="text-4xl font-bold text-white mb-4">$64,000,000</div>
-    <div class="space-y-2">
-      <div class="flex justify-between text-sm text-blue-200">
-        <span>Abril 2024:</span>
-        <span>$57,356,000</span>
+    <p class="text-4xl font-bold text-white mb-3">$64,000,000</p>
+    <div class="text-sm text-blue-200 space-y-1">
+      <div class="flex justify-between">
+        <span>Abril 2024:</span><span>$57,356,000</span>
       </div>
-      <div class="flex justify-between text-sm text-blue-200">
-        <span>Crecimiento:</span>
-        <span class="text-green-300 font-medium">+$6,644,000</span>
+      <div class="flex justify-between">
+        <span>Crecimiento:</span><span class="text-green-300 font-semibold">+$6,644,000</span>
       </div>
     </div>
   </div>
 
-  <!-- Tarjeta de Rentabilidad -->
-  <div class="bg-gradient-to-br from-green-900/80 to-green-800/80 p-6 rounded-2xl shadow-xl border border-green-700/50">
-    <div class="text-green-100 text-lg font-medium mb-4">Utilidad Neta</div>
-    <div class="text-4xl font-bold text-white mb-4">$10,069,496</div>
-    <div class="space-y-3">
-      <div class="text-sm text-green-100">Margen Neto: 15.73%</div>
-      <div class="w-full bg-green-900/50 rounded-full h-3">
-        <div class="bg-green-400 h-3 rounded-full transition-all duration-1000" style="width: 15.73%"></div>
-      </div>
-      <div class="flex justify-between text-xs text-green-200">
-        <span>0%</span>
-        <span class="font-bold">15.73%</span>
-        <span>100%</span>
-      </div>
+  <!-- Utilidad Neta -->
+  <div class="rounded-2xl p-6 bg-gradient-to-tr from-green-800 to-green-900 shadow-lg border border-green-700/40">
+    <h2 class="text-lg font-semibold text-green-100 mb-2">Utilidad Neta</h2>
+    <p class="text-4xl font-bold text-white mb-3">$10,069,496</p>
+    <div class="text-sm text-green-100">Margen Neto: <span class="font-semibold">15.73%</span></div>
+    <div class="w-full bg-green-900/60 rounded-full h-3 mt-2 mb-1">
+      <div class="bg-green-400 h-3 rounded-full transition-all duration-1000" style="width: 15.73%"></div>
+    </div>
+    <div class="flex justify-between text-xs text-green-200">
+      <span>0%</span><span class="font-bold">15.73%</span><span>100%</span>
     </div>
   </div>
+
 </div>
 
-<!-- Indicadores Clave -->
-<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 max-w-6xl mx-auto">
-  <div class="text-center p-4 bg-white/5 rounded-xl backdrop-blur-sm">
-    <div class="text-2xl font-bold text-amber-400">2,950</div>
-    <div class="text-sm text-gray-300">Tamales Producidos</div>
+<!-- Indicadores Secundarios -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 max-w-6xl mx-auto text-center text-white">
+
+  <div class="bg-white/5 backdrop-blur-sm p-4 rounded-xl shadow-md">
+    <div class="text-2xl font-bold text-yellow-400">2,950</div>
+    <div class="text-xs mt-1 text-blue-100">Tamales Producidos</div>
   </div>
-  <div class="text-center p-4 bg-white/5 rounded-xl backdrop-blur-sm">
-    <div class="text-2xl font-bold text-blue-400">$10,010</div>
-    <div class="text-sm text-gray-300">Costo Unitario</div>
+
+  <div class="bg-white/5 backdrop-blur-sm p-4 rounded-xl shadow-md">
+    <div class="text-2xl font-bold text-sky-400">$10,010</div>
+    <div class="text-xs mt-1 text-blue-100">Costo Unitario</div>
   </div>
-  <div class="text-center p-4 bg-white/5 rounded-xl backdrop-blur-sm">
-    <div class="text-2xl font-bold text-purple-400">46.15%</div>
-    <div class="text-sm text-gray-300">Costos/Ingresos</div>
+
+  <div class="bg-white/5 backdrop-blur-sm p-4 rounded-xl shadow-md">
+    <div class="text-2xl font-bold text-purple-300">46.15%</div>
+    <div class="text-xs mt-1 text-blue-100">Costos / Ingresos</div>
   </div>
-  <div class="text-center p-4 bg-white/5 rounded-xl backdrop-blur-sm">
-    <div class="text-2xl font-bold text-red-400">6.58%</div>
-    <div class="text-sm text-gray-300">Gastos Operativos</div>
+
+  <div class="bg-white/5 backdrop-blur-sm p-4 rounded-xl shadow-md">
+    <div class="text-2xl font-bold text-red-300">6.58%</div>
+    <div class="text-xs mt-1 text-blue-100">Gastos Operativos</div>
   </div>
 </div>
 
@@ -933,6 +935,9 @@ image: /assets/fondo8.png
     </div>
   </div>
 </div>
+
+---
+layout: chat-layout
 
 ---
 
