@@ -156,7 +156,9 @@ image: /assets/fondo5.png
 class: px-8 py-12
 ---
 
-# <span class="text-3xl md:text-4xl font-semibold text-white/90 tracking-wide">Resumen Ejecutivo - Abril 2025</span>
+<div class="flex items-center justify-center">
+  <span class="text-3xl md:text-4xl font-semibold text-white/90 tracking-wide">Resumen Ejecutivo - Abril 2025</span>
+</div>
 
 <!-- Panel de Indicadores Principales -->
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-10">
@@ -229,19 +231,19 @@ class: px-10 py-12
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto mt-10 text-center bg-[#15572F]/50 p-6 rounded-2xl border border-[#15572F]/30 shadow-md">
 
   <div>
-    <p class="text-sm text-slate-300 mb-1">Costo Total Mensual</p>
+    <p class="text-sm text-white mb-1">Costo Total Mensual</p>
     <p class="text-3xl font-bold text-white">$29,537,200</p>
     <p class="text-xs text-white mt-1">Producción completa</p>
   </div>
 
   <div>
-    <p class="text-sm text-slate-300 mb-1">Unidades Producidas</p>
+    <p class="text-sm text-white mb-1">Unidades Producidas</p>
     <p class="text-3xl font-bold text-white">2,950</p>
     <p class="text-xs text-white mt-1">Tamales mensuales</p>
   </div>
 
   <div>
-    <p class="text-sm text-slate-300 mb-1">Costo Unitario</p>
+    <p class="text-sm text-white mb-1">Costo Unitario</p>
     <p class="text-3xl font-bold text-amber-400">$10,010</p>
     <p class="text-xs text-white mt-1">Por tamal</p>
   </div>
@@ -252,7 +254,7 @@ class: px-10 py-12
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-10">
 
   <!-- Estructura de Costos -->
-  <div class="bg-blue-900/20 backdrop-blur-md p-6 rounded-2xl border border-blue-500/20 shadow-lg">
+  <div class="bg-[#4E95D4] p-6 rounded-2xl border border-[#4E95D4]/20 shadow-lg">
     <h3 class="text-xl font-semibold text-white mb-5">Estructura de Costos</h3>
 
   <div class="space-y-5 text-sm font-medium">
@@ -279,33 +281,34 @@ class: px-10 py-12
   </div>
 
   <!-- Análisis de Eficiencia -->
-  <div class="bg-white/90 p-6 rounded-2xl border border-slate-200 shadow-sm">
-    <h3 class="text-xl font-semibold text-[#253754] mb-5">Análisis de Eficiencia</h3>
+  <div class="bg-white/90 p-2 rounded-2xl border border-slate-200 shadow-sm">
+    <h3 class="text-sm font-semibold text-[#253754] mb-2">Análisis de Eficiencia</h3>
 
-  <div class="space-y-5 text-sm text-[#253754]">
-    <div class="flex items-start gap-3">
-      <span class="text-green-600 text-xl">✅</span>
+  <div class="text-xs text-[#253754]">
+    <div class="mb-2">
       <div>
-        <p class="font-semibold">Control de Costos Óptimo</p>
-        <p class="text-sm">Costo unitario competitivo en el mercado</p>
+        <span class="font-semibold">Control de Costos Óptimo</span>
+        <br />
+        <span class="text-xs">Costo unitario competitivo en el mercado</span>
       </div>
     </div>
 
-  <div class="flex items-start gap-3">
-    <span class="text-blue-600 text-xl">📊</span>
+  <div class="mb-2">
     <div>
-      <p class="font-semibold">Distribución Equilibrada</p>
-      <p class="text-sm">72% mano de obra refleja calidad artesanal</p>
+      <span class="font-semibold">Distribución Equilibrada</span>
+      <br />
+      <span class="text-xs">72% mano de obra refleja calidad artesanal</span>
     </div>
   </div>
 
-  <div class="flex items-start gap-3">
-    <span class="text-amber-500 text-xl">🎯</span>
+  <div class="mb-2">
     <div>
-      <p class="font-semibold">Margen Saludable</p>
-      <p class="text-sm">Costos representan 46.15% de los ingresos</p>
+      <span class="font-semibold">Margen Saludable</span>
+      <br />
+      <span class="text-xs">Costos representan 46.15% de los ingresos</span>
     </div>
   </div>
+
   </div>
   </div>
 
@@ -316,84 +319,84 @@ layout: image
 image: /assets/fondo7.png
 ---
 
-# Estructura de Ingresos
+<span class="text-2xl md:text-3xl font-semibold text-slate-700">Estructura de Ingresos</span>
 
-<div class="max-w-6xl mx-auto mt-8">
-  <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<div class="max-w-6xl mx-auto mt-4 space-y-2">
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
     <!-- Ingresos Principales -->
-    <div class="lg:col-span-2 space-y-6">
-      <div class="bg-gradient-to-br from-blue-900/60 to-blue-800/60 p-8 rounded-2xl border border-blue-700/30">
-        <div class="flex items-center justify-between mb-6">
-          <h3 class="text-2xl font-bold text-white">Ingresos Operacionales</h3>
-          <span class="bg-blue-700/50 px-4 py-2 rounded-full text-sm text-blue-100">100% Operacional</span>
+    <div class="lg:col-span-2">
+      <div class="bg-gradient-to-br from-[#4E95D4]/60 to-[#4E95D4]/50 p-4 rounded-2xl border border-[#4E95D4]/30">
+        <div class="flex items-center justify-between mb-2">
+          <h3 class="text-xl font-bold text-white">Ingresos Operacionales</h3>
+          <span class="bg-[#4E95D4]/50 px-2 py-1 rounded-full text-sm text-white">100% Operacional</span>
         </div>
         
-  <div class="text-5xl font-bold text-white mb-4">$64,000,000</div>
+  <div class="text-4xl font-bold text-white mb-3">$64,000,000</div>
   
-  <div class="grid grid-cols-2 gap-4 mt-6">
-    <div class="bg-blue-800/30 p-4 rounded-lg">
-      <div class="text-blue-200 text-sm">Promedio Semanal</div>
-      <div class="text-xl font-bold text-white">$16,000,000</div>
+  <div class="grid grid-cols-2 gap-4 mt-3">
+    <div class="bg-[#4E95D4]/30 p-3 rounded-lg">
+      <div class="text-[#4E95D4]/70 text-sm">Promedio Semanal</div>
+      <div class="text-lg font-bold text-white">$16,000,000</div>
     </div>
-    <div class="bg-blue-800/30 p-4 rounded-lg">
-      <div class="text-blue-200 text-sm">Promedio Diario</div>
-      <div class="text-xl font-bold text-white">$2,133,333</div>
+    <div class="bg-[#4E95D4]/30 p-3 rounded-lg">
+      <div class="text-[#4E95D4]/70 text-sm">Promedio Diario</div>
+      <div class="text-lg font-bold text-white">$2,133,333</div>
     </div>
   </div>
 </div>
 
   <!-- Comparativo Anual -->
-  <div class="bg-green-800/60 backdrop-blur-sm p-6 rounded-2xl border border-green-700/30">
-    <h4 class="text-lg font-medium text-white mb-4">Comparativo Interanual</h4>
-    <div class="space-y-3">
+  <div class="bg-[#15572F]/60 backdrop-blur-sm p-4 rounded-2xl border border-[#15572F]/30 mt-4">
+    <h4 class="text-lg font-medium text-white mb-3">Comparativo Interanual</h4>
+    <div class="space-y-2">
       <div class="flex justify-between items-center">
-        <span class="text-gray-300">Abril 2024</span>
+        <span class="text-white">Abril 2024</span>
         <span class="font-mono text-white">$57,356,000</span>
       </div>
       <div class="flex justify-between items-center">
-        <span class="text-gray-300">Abril 2025</span>
+        <span class="text-white">Abril 2025</span>
         <span class="font-mono text-white font-bold">$64,000,000</span>
       </div>
       <div class="border-t border-gray-600 pt-3 flex justify-between items-center">
-        <span class="text-green-300 font-medium">Crecimiento</span>
-        <span class="font-mono text-green-300 font-bold">+$6,644,000 (+11.58%)</span>
+        <span class="text-[#FFC507] font-medium">Crecimiento</span>
+        <span class="font-mono text-[#FFC507] font-bold">+$6,644,000 (+11.58%)</span>
       </div>
     </div>
   </div>
 </div>
 
   <!-- Métricas Clave -->
-  <div class="space-y-6">
-    <div class="bg-gradient-to-br from-green-900/60 to-green-800/60 p-6 rounded-2xl border border-green-700/30">
-      <h4 class="text-lg font-medium text-green-100 mb-4">Indicadores Clave</h4>
-      <div class="space-y-4">
+  <div class="space-y-2 mt-4">
+    <div class="bg-gradient-to-br from-[#15572F]/60 to-[#15572F]/50 p-4 rounded-2xl border border-[#15572F]/30">
+      <h4 class="text-lg font-medium text-white mb-3">Indicadores Clave</h4>
+      <div class="space-y-2">
         <div>
-          <div class="text-green-200 text-sm">Precio Promedio</div>
+          <div class="text-white text-sm">Precio Promedio</div>
           <div class="text-2xl font-bold text-white">$21,695</div>
-          <div class="text-xs text-green-300">Por tamal vendido</div>
+          <div class="text-xs text-white">Por tamal vendido</div>
         </div>
         <div>
-          <div class="text-green-200 text-sm">Unidades Vendidas</div>
+          <div class="text-white text-sm">Unidades Vendidas</div>
           <div class="text-2xl font-bold text-white">2,950</div>
-          <div class="text-xs text-green-300">Tamales en abril</div>
+          <div class="text-xs text-white">Tamales en abril</div>
         </div>
       </div>
     </div>
 
-  <div class="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10">
-    <h4 class="text-lg font-medium text-white mb-4">Características</h4>
-    <div class="space-y-3 text-sm">
+  <div class="bg-[#FFC507]/70 backdrop-blur-sm p-4 rounded-2xl border border-[#FFC507]/30">
+    <h4 class="text-lg font-medium text-white mb-3">Características</h4>
+    <div class="space-y-2 text-sm text-white">
       <div class="flex items-center space-x-2">
-        <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
-        <span class="text-gray-300">Ingresos 100% operacionales</span>
+        <div class="w-2 h-2 bg-[#FFC507] rounded-full"></div>
+        <span>Ingresos 100% operacionales</span>
       </div>
       <div class="flex items-center space-x-2">
-        <div class="w-2 h-2 bg-green-400 rounded-full"></div>
-        <span class="text-gray-300">Sin anticipos registrados</span>
+        <div class="w-2 h-2 bg-[#4E95D4] rounded-full"></div>
+        <span>Sin anticipos registrados</span>
       </div>
       <div class="flex items-center space-x-2">
-        <div class="w-2 h-2 bg-amber-400 rounded-full"></div>
-        <span class="text-gray-300">Ventas netas ajustadas</span>
+        <div class="w-2 h-2 bg-[#15572F] rounded-full"></div>
+        <span>Ventas netas ajustadas</span>
       </div>
     </div>
   </div>
