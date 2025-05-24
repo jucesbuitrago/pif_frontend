@@ -500,26 +500,27 @@ image: /assets/fondo10.png
 ---
 
 
-# Gastos Administrativos y de Ventas
-
+<div class="text-center">
+  <span class="text-2xl md:text-3xl font-semibold text-slate-700">Gastos Administrativos y de Ventas</span>
+</div>
 <div class="max-w-6xl mx-auto mt-8">
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
     <!-- Nómina Operativa -->
-    <div class="lg:col-span-2 bg-gradient-to-br from-purple-900/60 to-purple-800/60 p-8 rounded-2xl border border-purple-700/30">
+    <div class="lg:col-span-2 bg-[#253754] p-8 rounded-2xl border border-[#253754]/30">
       <div class="flex items-center justify-between mb-6">
         <h3 class="text-xl font-bold text-white">Gastos de Personal</h3>
-        <span class="bg-purple-700/50 px-3 py-1 rounded-full text-sm text-purple-100">79.3%</span>
+        <span class="bg-[#253754]/50 px-3 py-1 rounded-full text-sm text-white">79.3%</span>
       </div>
       
   <div class="text-4xl font-bold text-white mb-6">$18,600,000</div>
   
   <div class="space-y-4">
-    <div class="bg-purple-800/30 p-4 rounded-lg">
-      <div class="text-purple-200 text-sm mb-1">Concepto</div>
+    <div class="bg-[#4E95D4] p-4 rounded-lg">
+      <div class="text-[#4E95D4]/70 text-sm mb-1">Concepto</div>
       <div class="text-white font-medium">Nómina Operativa Mensual</div>
     </div>
-    <div class="bg-purple-800/30 p-4 rounded-lg">
-      <div class="text-purple-200 text-sm mb-1">Participación</div>
+    <div class="bg-[#4E95D4] p-4 rounded-lg">
+      <div class="text-[#4E95D4]/70 text-sm mb-1">Participación</div>
       <div class="text-white font-medium">79.3% del total de gastos administrativos</div>
     </div>
   </div>
@@ -527,17 +528,17 @@ image: /assets/fondo10.png
     
   <!-- Otros Gastos -->
   <div class="space-y-6">
-    <div class="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10">
-      <h4 class="text-lg font-medium text-white mb-4">📱 Publicidad</h4>
-      <div class="text-3xl font-bold text-green-400 mb-2">$600,000</div>
-      <div class="text-sm text-gray-300">2.6% del total</div>
+    <div class="bg-[#15572F]/50 backdrop-blur-sm p-6 rounded-2xl border border-[#15572F]/30">
+      <h4 class="text-lg font-medium text-white mb-4">Publicidad</h4>
+      <div class="text-3xl font-bold text-white mb-2">$600,000</div>
+      <div class="text-sm text-white">2.6% del total</div>
       <div class="mt-4 w-full bg-gray-700 rounded-full h-2">
-        <div class="bg-green-500 h-2 rounded-full" style="width: 2.6%"></div>
+        <div class="bg-[#15572F] h-2 rounded-full" style="width: 2.6%"></div>
       </div>
     </div>
       
 <div class="bg-gradient-to-br from-slate-800/60 to-slate-700/60 p-6 rounded-2xl border border-slate-600/30">
-  <h4 class="text-lg font-medium text-white mb-4">📊 Total General</h4>
+  <h4 class="text-lg font-medium text-white mb-4">Total General</h4>
   <div class="text-2xl font-bold text-white mb-2">$23,462,750</div>
   <div class="text-sm text-slate-300 mb-4">36.66% de los ingresos</div>
   
