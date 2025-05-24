@@ -120,6 +120,37 @@ class: flex flex-col items-center justify-center px-10 py-12
 
 </div>
 ---
+layout: image
+image: /assets/fondo4.png
+---
+
+<section id="antecedentes" class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-[#253754]">
+
+  <!-- Columna izquierda: texto -->
+  <div class="space-y-4">
+    <h2 class="text-lg md:text-xl font-light tracking-wide uppercase">Antecedentes</h2>
+    <h1 class="text-3xl md:text-4xl font-bold text-[#253754] uppercase">Historia</h1>
+
+  <p class="text-sm md:text-base leading-relaxed">
+    Tamales Doña Claudia es una empresa familiar creada en 2010 en la ciudad de Ibagué, inspirada en la tradición gastronómica tolimense.
+    Su fundadora, Claudia, heredó de su madre no solo la receta ancestral del tamal, sino también el amor por la cocina y el compromiso con la calidad.
+  </p>
+
+  <p class="text-sm md:text-base leading-relaxed">
+    A partir de ese legado, decidió emprender un negocio que mantuviera viva esa tradición,
+    ofreciendo tamales artesanales elaborados con ingredientes frescos y procesos cuidadosos.
+    Hoy en día, la empresa es reconocida a nivel local por preservar el sabor auténtico de los tamales tolimenses y por ser un símbolo de cultura y tradición en la región.
+  </p>
+  </div>
+
+  <!-- Columna derecha: imagen -->
+  <div class="flex justify-center">
+    <img src="./assets/antecedentes.png" alt="Tamales Doña Claudia" class="rounded-2xl shadow-xl max-w-full md:max-w-md">
+  </div>
+
+</section>
+
+---
 
 # 📊 Resumen Ejecutivo - Abril 2025
 
