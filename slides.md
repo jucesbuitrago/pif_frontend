@@ -25,7 +25,7 @@ css: styles/custom.css
 ---
 layout: image
 # the image source
-image: ./assets/fondo2.png
+image: /assets/fondo2.png
 ---
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -145,7 +145,7 @@ image: /assets/fondo4.png
 
   <!-- Columna derecha: imagen -->
   <div class="flex justify-center">
-    <img src="./assets/antecedentes.png" alt="Tamales Doña Claudia" class="rounded-2xl shadow-xl max-w-full md:max-w-md">
+    <img src="./assets/antecedentes.jpg" alt="Tamales Doña Claudia" class="rounded-2xl shadow-xl max-w-full md:max-w-md">
   </div>
 
 </section>
