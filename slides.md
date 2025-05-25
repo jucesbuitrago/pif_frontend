@@ -153,14 +153,6 @@ class: px-8 py-12
       <span class="text-xs bg-blue-700/60 text-white px-2 py-0.5 rounded-full">📈 +11.58%</span>
     </div>
     <p class="text-4xl font-bold text-white mb-3">$64,000,000</p>
-    <div class="text-sm text-blue-200 space-y-1">
-      <div class="flex justify-between">
-        <span class="text-white">Abril 2024:</span><span class="text-white">$57,356,000</span>
-      </div>
-      <div class="flex justify-between">
-        <span class="text-white">Crecimiento:</span><span class="text-green-300 font-semibold">+$6,644,000</span>
-      </div>
-    </div>
   </div>
 
   <!-- Utilidad Neta -->
@@ -519,7 +511,7 @@ image: /assets/fondo4.png
   <div class="bg-[#E3D8D4] p-4 rounded-xl border border-amber-500/20">
     <div class="flex justify-between items-center">
       <span id="10" class="text-[#253754] font-medium">Utilidad Neta</span>
-      <span class="font-mono text-xl font-bold text-[#253754]">6,746,562 COP</span>
+      <span class="font-mono text-xl font-bold text-[#253754]">10,069,496 COP</span>
     </div>
   </div>
 </div>
