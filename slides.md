@@ -226,10 +226,10 @@ class: px-10 py-12
 </div>
 
 <!-- Panel Inferior -->
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-10">
+<div class="grid grid-cols-1 max-w-6xl mx-auto mt-10">
 
   <!-- Estructura de Costos -->
-  <div class="bg-[#4E95D4] p-6 rounded-2xl border border-[#4E95D4]/20 shadow-lg">
+  <div class="bg-[#4E95D4] p-6 rounded-2xl border border-[#4E95D4]/20 shadow-lg col-span-1 lg:col-span-2">
     <h3 class="text-xl font-semibold text-white mb-5">Estructura de Costos</h3>
 
   <div class="space-y-5 text-sm font-medium">
@@ -254,39 +254,6 @@ class: px-10 py-12
   </div>
   </div>
   </div>
-
-  <!-- Análisis de Eficiencia -->
-  <div class="bg-white/90 p-2 rounded-2xl border border-slate-200 shadow-sm">
-    <h3 class="text-sm font-semibold text-[#253754] mb-2">Análisis de Eficiencia</h3>
-
-  <div class="text-xs text-[#253754]">
-    <div class="mb-2">
-      <div>
-        <span class="font-semibold">Control de Costos Óptimo</span>
-        <br />
-        <span class="text-xs">Costo unitario competitivo en el mercado</span>
-      </div>
-    </div>
-
-  <div class="mb-2">
-    <div>
-      <span class="font-semibold">Distribución Equilibrada</span>
-      <br />
-      <span class="text-xs">72% mano de obra refleja calidad artesanal</span>
-    </div>
-  </div>
-
-  <div class="mb-2">
-    <div>
-      <span class="font-semibold">Margen Saludable</span>
-      <br />
-      <span class="text-xs">Costos representan 46.15% de los ingresos</span>
-    </div>
-  </div>
-
-  </div>
-  </div>
-
 </div>
 
 ---
