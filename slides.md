@@ -213,7 +213,7 @@ class: px-10 py-12
 
   <div>
     <p class="text-sm text-white mb-1">Unidades Producidas</p>
-    <p class="text-3xl font-bold text-white">6,400</p>
+    <p class="text-3xl font-bold text-white">6,510</p>
     <p class="text-xs text-white mt-1">Tamales mensuales</p>
   </div>
 
