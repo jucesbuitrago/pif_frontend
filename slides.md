@@ -235,7 +235,7 @@ class: px-10 py-12
   <div class="space-y-5 text-sm font-medium">
     <div>
       <div class="flex justify-between mb-1">
-        <span class="text-white">Materia Prima</span>
+        <span class="text-white">Mano de Obra</span>
         <span class="text-white font-mono">$8,202,200 (28%)</span>
       </div>
       <div class="w-full h-3 bg-slate-700 rounded-full">
@@ -245,7 +245,7 @@ class: px-10 py-12
 
   <div>
     <div class="flex justify-between mb-1">
-      <span class="text-white">Mano de Obra</span>
+      <span class="text-white">Materia Prima</span>
       <span class="text-white font-mono">$21,335,000 (72%)</span>
     </div>
     <div class="w-full h-3 bg-slate-700 rounded-full">
@@ -497,7 +497,7 @@ image: /assets/fondo4.png
   <div class="bg-[#E3D8D4] p-4 rounded-xl">
     <div class="flex justify-between items-center">
       <span id="10" class="text-[#253754]">Utilidad Operativa</span>
-      <span class="font-mono text-[#253754]">11,652,800 COP</span>
+      <span class="font-mono text-[#253754]">11,000,050 COP</span>
     </div>
   </div>
   
