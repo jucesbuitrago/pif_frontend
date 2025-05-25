@@ -70,44 +70,28 @@ class: flex flex-col items-center justify-center px-10 py-12
 
 <div class="text-[#253754] text-[12px] font-medium space-y-2 w-full max-w-md mt-6">
 
-<a href="#antecedentes" class="flex justify-between hover:underline">
+<a href="4" class="flex justify-between hover:underline">
   <span>• Antecedentes del Negocio</span><span class="font-bold">01</span>
 </a>
 
-<a href="#ventas" class="flex justify-between hover:underline">
-  <span>• Ventas Mensuales</span><span class="font-bold">02</span>
+<a href="5" class="flex justify-between hover:underline">
+  <span>• Resumen Ejecutivo</span><span class="font-bold">02</span>
 </a>
 
-<a href="#costo-unitario" class="flex justify-between hover:underline">
-  <span>• Costo de Producción por Unidad</span><span class="font-bold">03</span>
+<a href="6" class="flex justify-between hover:underline">
+  <span>• Análisis de Costos de Producción</span><span class="font-bold">03</span>
 </a>
 
-<a href="#resumen" class="flex justify-between hover:underline">
-  <span>• Resumen Financiero del Periodo</span><span class="font-bold">04</span>
+<a href="7" class="flex justify-between hover:underline">
+  <span>• Estrucutra de Ingresos</span><span class="font-bold">04</span>
 </a>
 
-<a href="#ingresos" class="flex justify-between hover:underline">
-  <span>• Ingresos por Ventas</span><span class="font-bold">05</span>
+<a href="8" class="flex justify-between hover:underline">
+  <span>• Gastos Operativos</span><span class="font-bold">05</span>
 </a>
 
-<a href="#costos-totales" class="flex justify-between hover:underline">
-  <span>• Total de Costos de Producción</span><span class="font-bold">06</span>
-</a>
-
-<a href="#netos" class="flex justify-between hover:underline">
-  <span>• Ingresos Netos</span><span class="font-bold">07</span>
-</a>
-
-<a href="#costos-ingresos" class="flex justify-between hover:underline">
-  <span>• Costos Correspondientes a los Ingresos</span><span class="font-bold">08</span>
-</a>
-
-<a href="#operacion" class="flex justify-between hover:underline">
-  <span>• Gastos de Operación</span><span class="font-bold">09</span>
-</a>
-
-<a href="#operativos" class="flex justify-between hover:underline">
-  <span>• Gastos Operativos</span><span class="font-bold">10</span>
+<a href="9" class="flex justify-between hover:underline">
+  <span>• Estado de resultados</span><span class="font-bold">06</span>
 </a>
 
 <!-- Sublista de utilidades -->
@@ -118,16 +102,20 @@ class: flex flex-col items-center justify-center px-10 py-12
   <li><a href="#utilidad-neta" class="hover:underline">Utilidad Neta</a></li>
 </ul>
 
+<a href="11" class="flex justify-between hover:underline">
+  <span>• Conclusiones</span><span class="font-bold">08</span>
+</a>
+
 </div>
 ---
 layout: image
 image: /assets/fondo4.png
 ---
 
-<section id="antecedentes" class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-[#253754]">
+<section id="4" class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-[#253754]">
 
   <!-- Columna izquierda: texto -->
-  <div class="space-y-4">
+  <div class="space-y-4">  
     <h2 class="text-lg md:text-xl font-light tracking-wide uppercase">Antecedentes</h2>
     <h1 class="text-3xl md:text-4xl font-bold text-[#253754] uppercase">Historia</h1>
 
@@ -156,7 +144,7 @@ image: /assets/fondo5.png
 class: px-8 py-12
 ---
 
-<div class="flex items-center justify-center">
+<div id="5" class="flex items-center justify-center">
   <span class="text-3xl md:text-4xl font-semibold text-white/90 tracking-wide">Resumen Ejecutivo - Abril 2025</span>
 </div>
 
@@ -225,7 +213,7 @@ image: /assets/fondo10.png
 class: px-10 py-12
 ---
 
-# <span class="text-3xl md:text-4xl font-semibold text-slate-700">Análisis de Costos de Producción</span>
+# <span id="6" class="text-3xl md:text-4xl font-semibold text-slate-700">Análisis de Costos de Producción</span>
 
 <!-- Panel Superior -->
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto mt-10 text-center bg-[#15572F]/50 p-6 rounded-2xl border border-[#15572F]/30 shadow-md">
@@ -319,7 +307,7 @@ layout: image
 image: /assets/fondo7.png
 ---
 
-<span class="text-2xl md:text-3xl font-semibold text-slate-700">Estructura de Ingresos</span>
+# <span id="7" class="text-2xl md:text-3xl font-semibold text-slate-700">Estructura de Ingresos</span>
 
 <div class="max-w-6xl mx-auto mt-4 space-y-2">
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
@@ -406,160 +394,99 @@ image: /assets/fondo7.png
 
 ---
 layout: image
-image: /assets/fondo9.png
----
-
-<div class="text-center">
-  <span class="text-2xl md:text-3xl font-semibold text-slate-700">Gastos Operacionales</span>
-</div>
-
-<div class="max-w-5xl mx-auto mt-6">
-  <!-- Resumen de Gastos -->
-  <div class="bg-[#4E95D4] p-6 rounded-2xl border border-[#4E95D4]/30 mb-6">
-    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
-      <h3 class="text-xl font-bold text-white">Total Gastos Operacionales</h3>
-      <span class="bg-[#4E95D4]/50 px-3 py-1 rounded-full text-sm text-white">6.58% de Ingresos</span>
-    </div>
-    <div class="text-4xl font-bold text-white">$4,210,000</div>
-  </div>
-
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
-    <!-- Desglose de Gastos -->
-    <div class="bg-[#15572F] backdrop-blur-sm p-3 rounded-2xl border border-[#15572F]/30">
-      <h4 class="text-sm font-medium text-white mb-2">Distribución de Gastos</h4>
-      
-  <div class="space-y-2">
-    <div>
-      <div class="flex justify-between items-center mb-0.5">
-        <span class="text-white text-xs">Arriendos</span>
-        <span class="font-mono text-white text-xs">$1.8M</span>
-      </div>
-      <div class="w-full bg-[#4E95D4]/30 rounded-full h-1.5">
-        <div class="bg-[#4E95D4] h-1.5 rounded-full" style="width: 42.8%"></div>
-      </div>
-      <div class="text-xs text-white mt-0.5">42.8% del total</div>
-    </div>
-  
-  <div>
-    <div class="flex justify-between items-center mb-0.5">
-      <span class="text-white text-xs">Servicios</span>
-      <span class="font-mono text-white text-xs">$1.7M</span>
-    </div>
-    <div class="w-full bg-[#4E95D4]/30 rounded-full h-1.5">
-      <div class="bg-[#4E95D4] h-1.5 rounded-full" style="width: 40.4%"></div>
-    </div>
-    <div class="text-xs text-white mt-0.5">40.4% del total</div>
-  </div>
-        
-  <div>
-    <div class="flex justify-between items-center mb-0.5">
-      <span class="text-white text-xs">Transporte</span>
-      <span class="font-mono text-white text-xs">$410K</span>
-    </div>
-    <div class="w-full bg-[#4E95D4]/30 rounded-full h-1.5">
-      <div class="bg-[#4E95D4] h-1.5 rounded-full" style="width: 9.7%"></div>
-    </div>
-    <div class="text-xs text-white mt-0.5">9.7% del total</div>
-  </div>
-        
-  <div>
-    <div class="flex justify-between items-center mb-0.5">
-      <span class="text-white text-xs">Mantenimiento</span>
-      <span class="font-mono text-white text-xs">$300K</span>
-    </div>
-    <div class="w-full bg-[#4E95D4]/30 rounded-full h-1.5">
-      <div class="bg-[#4E95D4] h-1.5 rounded-full" style="width: 7.1%"></div>
-    </div>
-    <div class="text-xs text-white mt-0.5">7.1% del total</div>
-  </div>
-</div>
-</div>
-
-  <!-- Análisis y Tendencias -->
-  <div class="space-y-4">
-    <div class="bg-[#FFC507] p-5 rounded-2xl border border-[#FFC507]/30">
-      <h4 class="text-lg font-semibold text-white mb-3">Análisis</h4>
-      <div class="space-y-3 text-sm">
-        <span class="text-white font-semibold">Concentración de Gastos</span><br>
-        <span class="text-[#1A8D3F] font-bold">83.2% en arriendo y servicios</span><br>
-        <span class="text-white font-semibold">Optimización Logística</span><br>
-        <span class="text-[#1A8D3F] font-bold">-8% en gastos de transporte</span><br>
-        <span class="text-white font-semibold">Control Eficiente</span><br>
-        <span class="text-[#1A8D3F] font-bold">Gastos <7% de ingresos</span>
-      </div>
-    </div>
-    <br>
-  </div>
-
-  </div>
-</div>
-
----
-layout: image
 image: /assets/fondo10.png
 ---
 
-# <span class="text-2xl md:text-3xl font-semibold text-slate-700">Gastos Administrativos y de Ventas</span>
+# <span id="8" class="text-3xl md:text-4xl font-semibold text-slate-700">Gastos Operativos</span>
 
-<div class="max-w-6xl mx-auto mt-8">
-  <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-    <!-- Nómina Operativa -->
-    <div class="lg:col-span-2 bg-[#253754] p-8 rounded-2xl border border-[#253754]/30">
-      <div class="flex items-center justify-between mb-6">
-        <h3 class="text-xl font-bold text-white">Gastos de Personal</h3>
-        <span class="bg-[#253754]/50 px-3 py-1 rounded-full text-sm text-white">79.3%</span>
-      </div>
-      
-  <div class="text-4xl font-bold text-white mb-6">$18,600,000</div>
-  
-  <div class="space-y-4">
-    <div class="bg-[#4E95D4] p-4 rounded-lg">
-      <div class="text-white text-sm mb-1">Concepto</div>
-      <div class="text-white font-medium">Nómina Operativa Mensual</div>
-    </div>
-    <div class="bg-[#4E95D4] p-4 rounded-lg">
-      <div class="text-white text-sm mb-1">Participación</div>
-      <div class="text-white font-medium">79.3% del total de gastos administrativos</div>
-    </div>
-  </div>
-</div>
+<div class="max-w-4xl mx-auto">
+  <div class="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-amber-200">
+    <h3 class="text-xl font-medium text-amber-900 mb-6">Resumen de Gastos</h3>
     
-  <!-- Otros Gastos -->
-  <div class="space-y-6">
-    <div class="bg-[#15572F]/50 backdrop-blur-sm p-6 rounded-2xl border border-[#15572F]/30">
-      <h4 class="text-lg font-medium text-white mb-4">Publicidad</h4>
-      <div class="text-3xl font-bold text-white mb-2">$600,000</div>
-      <div class="text-sm text-white">2.6% del total</div>
-      <div class="mt-4 w-full bg-gray-700 rounded-full h-2">
-        <div class="bg-[#15572F] h-2 rounded-full" style="width: 2.6%"></div>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- Columna Izquierda -->
+    <div class="space-y-4">
+      <!-- Servicios Públicos -->
+      <div>
+        <div class="flex justify-between items-center mb-1">
+          <span class="text-amber-800">Servicios Públicos</span>
+          <span class="font-mono text-amber-900">1,700,000 COP</span>
+        </div>
+        <div class="w-full bg-amber-200 rounded-full h-2">
+          <div class="bg-amber-500 h-2 rounded-full" style="width: 7.2%"></div>
+        </div>
       </div>
+
+  <!-- Arriendos -->
+  <div>
+    <div class="flex justify-between items-center mb-1">
+      <span class="text-amber-800">Arriendos</span>
+      <span class="font-mono text-amber-900">1,800,000 COP</span>
     </div>
-      
-<div class="bg-gradient-to-br from-slate-800/60 to-slate-700/60 p-6 rounded-2xl border border-slate-600/30">
-  <h4 class="text-lg font-medium text-white mb-4">Total General</h4>
-  <div class="text-2xl font-bold text-white mb-2">$23,462,750</div>
-  <div class="text-sm text-slate-300 mb-4">36.66% de los ingresos</div>
-  
-  <div class="space-y-2 text-xs">
-    <div class="flex items-center justify-between">
-      <span class="text-purple-300">Personal</span>
-      <span class="text-white">$18,600,000</span>
+    <div class="w-full bg-amber-200 rounded-full h-2">
+      <div class="bg-amber-600 h-2 rounded-full" style="width: 7.7%"></div>
     </div>
-    <div class="flex items-center justify-between">
-      <span class="text-green-300">Publicidad</span>
-      <span class="text-white">$600,000</span>
+  </div>
+
+  <!-- Nómina Operativa -->
+  <div>
+    <div class="flex justify-between items-center mb-1">
+      <span class="text-amber-800">Nómina Operativa</span>
+      <span class="font-mono text-amber-900">18,600,000 COP</span>
     </div>
-    <div class="flex items-center justify-between">
-      <span class="text-orange-300">Operacionales</span>
-      <span class="text-white">$4,210,000</span>
-    </div>
-    <div class="flex items-center justify-between">
-      <span class="text-gray-300">Otros</span>
-      <span class="text-white">$52,750</span>
+    <div class="w-full bg-amber-200 rounded-full h-2">
+      <div class="bg-blue-500 h-2 rounded-full" style="width: 79.3%"></div>
     </div>
   </div>
 </div>
+
+  <!-- Columna Derecha -->
+  <div class="space-y-4">
+    <!-- Transporte -->
+    <div>
+      <div class="flex justify-between items-center mb-1">
+        <span class="text-amber-800">Transporte</span>
+        <span class="font-mono text-amber-900">410,000 COP</span>
+      </div>
+      <div class="w-full bg-amber-200 rounded-full h-2">
+        <div class="bg-amber-400 h-2 rounded-full" style="width: 1.7%"></div>
+      </div>
+    </div>
+
+  <!-- Mantenimiento -->
+  <div>
+    <div class="flex justify-between items-center mb-1">
+      <span class="text-amber-800">Mantenimiento</span>
+      <span class="font-mono text-amber-900">300,000 COP</span>
+    </div>
+    <div class="w-full bg-amber-200 rounded-full h-2">
+      <div class="bg-amber-300 h-2 rounded-full" style="width: 1.3%"></div>
+    </div>
+  </div>
+
+  <!-- Publicidad -->
+  <div>
+    <div class="flex justify-between items-center mb-1">
+      <span class="text-amber-800">Publicidad</span>
+      <span class="font-mono text-amber-900">600,000 COP</span>
+    </div>
+    <div class="w-full bg-amber-200 rounded-full h-2">
+      <div class="bg-green-500 h-2 rounded-full" style="width: 2.6%"></div>
+    </div>
+  </div>
 </div>
+  </div>
+
+  <!-- Total -->
+  <div class="pt-6 mt-6 border-t border-amber-200">
+    <div class="flex justify-between items-center">
+      <span class="text-lg font-medium text-amber-900">Total Gastos</span>
+      <span class="text-2xl font-bold text-amber-900">23,462,750 COP</span>
+    </div>
+    <div class="text-sm text-amber-700 mt-1">
+      Los gastos operativos representan el 36.66% de los ingresos totales
+    </div>
+  </div>
   </div>
 </div>
 
@@ -568,7 +495,7 @@ layout: image
 image: /assets/fondo4.png
 ---
 
-<div class="text-center"> 
+<div id="9" class="text-center"> 
   <span class="text-2xl md:text-3xl font-semibold text-slate-700">Estado de Resultados</span>
 </div>
 
@@ -703,137 +630,37 @@ image: /assets/fondo4.png
 
 ---
 layout: image
-image: /assets/fondo10.png
----
-
-
-# Gastos Operativos
-
-<div class="max-w-4xl mx-auto">
-  <div class="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-amber-200">
-    <h3 class="text-xl font-medium text-amber-900 mb-6">Resumen de Gastos</h3>
-    
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    <!-- Columna Izquierda -->
-    <div class="space-y-4">
-      <!-- Servicios Públicos -->
-      <div>
-        <div class="flex justify-between items-center mb-1">
-          <span class="text-amber-800">Servicios Públicos</span>
-          <span class="font-mono text-amber-900">1,700,000 COP</span>
-        </div>
-        <div class="w-full bg-amber-200 rounded-full h-2">
-          <div class="bg-amber-500 h-2 rounded-full" style="width: 7.2%"></div>
-        </div>
-      </div>
-
-  <!-- Arriendos -->
-  <div>
-    <div class="flex justify-between items-center mb-1">
-      <span class="text-amber-800">Arriendos</span>
-      <span class="font-mono text-amber-900">1,800,000 COP</span>
-    </div>
-    <div class="w-full bg-amber-200 rounded-full h-2">
-      <div class="bg-amber-600 h-2 rounded-full" style="width: 7.7%"></div>
-    </div>
-  </div>
-
-  <!-- Nómina Operativa -->
-  <div>
-    <div class="flex justify-between items-center mb-1">
-      <span class="text-amber-800">Nómina Operativa</span>
-      <span class="font-mono text-amber-900">18,600,000 COP</span>
-    </div>
-    <div class="w-full bg-amber-200 rounded-full h-2">
-      <div class="bg-blue-500 h-2 rounded-full" style="width: 79.3%"></div>
-    </div>
-  </div>
-</div>
-
-  <!-- Columna Derecha -->
-  <div class="space-y-4">
-    <!-- Transporte -->
-    <div>
-      <div class="flex justify-between items-center mb-1">
-        <span class="text-amber-800">Transporte</span>
-        <span class="font-mono text-amber-900">410,000 COP</span>
-      </div>
-      <div class="w-full bg-amber-200 rounded-full h-2">
-        <div class="bg-amber-400 h-2 rounded-full" style="width: 1.7%"></div>
-      </div>
-    </div>
-
-  <!-- Mantenimiento -->
-  <div>
-    <div class="flex justify-between items-center mb-1">
-      <span class="text-amber-800">Mantenimiento</span>
-      <span class="font-mono text-amber-900">300,000 COP</span>
-    </div>
-    <div class="w-full bg-amber-200 rounded-full h-2">
-      <div class="bg-amber-300 h-2 rounded-full" style="width: 1.3%"></div>
-    </div>
-  </div>
-
-  <!-- Publicidad -->
-  <div>
-    <div class="flex justify-between items-center mb-1">
-      <span class="text-amber-800">Publicidad</span>
-      <span class="font-mono text-amber-900">600,000 COP</span>
-    </div>
-    <div class="w-full bg-amber-200 rounded-full h-2">
-      <div class="bg-green-500 h-2 rounded-full" style="width: 2.6%"></div>
-    </div>
-  </div>
-</div>
-  </div>
-
-  <!-- Total -->
-  <div class="pt-6 mt-6 border-t border-amber-200">
-    <div class="flex justify-between items-center">
-      <span class="text-lg font-medium text-amber-900">Total Gastos</span>
-      <span class="text-2xl font-bold text-amber-900">23,462,750 COP</span>
-    </div>
-    <div class="text-sm text-amber-700 mt-1">
-      Los gastos operativos representan el 36.66% de los ingresos totales
-    </div>
-  </div>
-  </div>
-</div>
-
-
----
-layout: image
 image: /assets/fondo4.png
 ---
 
 
-# Utilidades del Periodo
+# <span id="10" class="text-2xl md:text-3xl font-semibold text-slate-700">Utilidades del Periodo</span>
 
 <div class="space-y-4">
   <div class="bg-[#E3D8D4] p-4 rounded-xl">
     <div class="flex justify-between items-center">
-      <span class="text-[#253754]">Utilidad Bruta</span>
+      <span id="10" class="text-[#253754]">Utilidad Bruta</span>
       <span class="font-mono text-[#253754]">34,462,800 COP</span>
     </div>
   </div>
   
   <div class="bg-[#E3D8D4] p-4 rounded-xl">
     <div class="flex justify-between items-center">
-      <span class="text-[#253754]">Utilidad Operativa</span>
+      <span id="10" class="text-[#253754]">Utilidad Operativa</span>
       <span class="font-mono text-[#253754]">11,652,800 COP</span>
     </div>
   </div>
   
   <div class="bg-[#E3D8D4] p-4 rounded-xl">
     <div class="flex justify-between items-center">
-      <span class="text-[#253754]">Antes de Impuestos</span>
+      <span id="10" class="text-[#253754]">Antes de Impuestos</span>
       <span class="font-mono text-[#253754]">10,069,496 COP</span>
     </div>
   </div>
   
   <div class="bg-[#E3D8D4] p-4 rounded-xl border border-amber-500/20">
     <div class="flex justify-between items-center">
-      <span class="text-[#253754] font-medium">Utilidad Neta</span>
+      <span id="10" class="text-[#253754] font-medium">Utilidad Neta</span>
       <span class="font-mono text-xl font-bold text-[#253754]">6,746,562 COP</span>
     </div>
   </div>
@@ -844,7 +671,7 @@ layout: image
 image: /assets/fondo4.png
 ---
 
-# Conclusiones Clave
+# <span id="11" class="text-2xl md:text-3xl font-semibold text-slate-700">Conclusiones Clave</span>
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
   <div class="bg-[#253754] p-6 rounded-2xl backdrop-blur-sm transform transition-transform hover:scale-105">
