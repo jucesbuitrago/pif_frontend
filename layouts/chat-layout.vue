@@ -42,7 +42,7 @@ function toggleChat() {
   position: relative;
   overflow: hidden;
   /* FONDO IMAGEN */
-  background: url('assets/fondo5.png') no-repeat center center fixed;
+  background: url('/assets/fondo5.png');
   background-size: cover;
 }
 
