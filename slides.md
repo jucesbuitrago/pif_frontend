@@ -354,7 +354,7 @@ image: /assets/fondo7.png
       <h4 class="text-lg font-medium text-white mb-3">Indicadores Clave</h4>
       <div class="space-y-2">
         <div>
-          <div class="text-white text-sm">Precio Promedio</div>
+          <div class="text-white text-sm">Precio</div>
           <div class="text-2xl font-bold text-white">$10,000</div>
           <div class="text-xs text-white">Por tamal vendido</div>
         </div>
