@@ -164,7 +164,7 @@ class: px-8 py-12
       <div class="bg-green-400 h-3 rounded-full transition-all duration-1000" style="width: 15.73%"></div>
     </div>
     <div class="flex justify-between text-xs text-green-200">
-      <span>0%</span><span class="font-bold">15.73%</span><span>100%</span>
+      <span>0%</span><span class="font-bold">50%</span><span>100%</span>
     </div>
   </div>
 
