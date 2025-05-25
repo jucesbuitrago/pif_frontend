@@ -135,6 +135,22 @@ image: /assets/fondo4.png
 
 ---
 layout: image
+image: /assets/estructurajer.png
+---
+
+---
+layout: image
+image: /assets/balance.png
+---
+
+---
+layout: image
+image: /assets/estados.png
+---
+
+
+---
+layout: image
 image: /assets/fondo5.png
 class: px-8 py-12
 ---
