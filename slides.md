@@ -24,7 +24,6 @@ css: styles/custom.css
 
 ---
 layout: image
-# the image source
 image: /assets/fondo2.png
 ---
 
@@ -633,8 +632,9 @@ layout: image
 image: /assets/fondo4.png
 ---
 
-
-# <span id="10" class="text-2xl md:text-3xl font-semibold text-slate-700">Utilidades del Periodo</span>
+<div id="10" class="text-center"> 
+  <span class="text-2xl md:text-3xl font-semibold text-slate-700">Utilidades del Periodo</span>
+</div>
 
 <div class="space-y-4">
   <div class="bg-[#E3D8D4] p-4 rounded-xl">
