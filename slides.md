@@ -504,7 +504,7 @@ image: /assets/fondo4.png
   <div class="bg-[#E3D8D4] p-4 rounded-xl">
     <div class="flex justify-between items-center">
       <span id="10" class="text-[#253754]">Antes de Impuestos</span>
-      <span class="font-mono text-[#253754]">10,069,496 COP</span>
+      <span class="font-mono text-[#253754]">10,453,496 COP</span>
     </div>
   </div>
   
