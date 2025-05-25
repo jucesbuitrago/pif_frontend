@@ -707,26 +707,26 @@ image: /assets/fondo10.png
 ---
 
 
-# Gastos de Operación
+# Gastos Operativos
 
 <div class="max-w-4xl mx-auto">
   <div class="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-amber-200">
     <h3 class="text-xl font-medium text-amber-900 mb-6">Resumen de Gastos</h3>
     
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-  <!-- Columna Izquierda -->
-  <div class="space-y-4">
-    <!-- Servicios Públicos -->
-    <div>
-      <div class="flex justify-between items-center mb-1">
-        <span class="text-amber-800">Servicios Públicos</span>
-        <span class="font-mono text-amber-900">1,700,000 COP</span>
+    <!-- Columna Izquierda -->
+    <div class="space-y-4">
+      <!-- Servicios Públicos -->
+      <div>
+        <div class="flex justify-between items-center mb-1">
+          <span class="text-amber-800">Servicios Públicos</span>
+          <span class="font-mono text-amber-900">1,700,000 COP</span>
+        </div>
+        <div class="w-full bg-amber-200 rounded-full h-2">
+          <div class="bg-amber-500 h-2 rounded-full" style="width: 7.2%"></div>
+        </div>
       </div>
-      <div class="w-full bg-amber-200 rounded-full h-2">
-        <div class="bg-amber-500 h-2 rounded-full" style="width: 40.4%"></div>
-      </div>
-    </div>
-    
+
   <!-- Arriendos -->
   <div>
     <div class="flex justify-between items-center mb-1">
@@ -734,11 +734,22 @@ image: /assets/fondo10.png
       <span class="font-mono text-amber-900">1,800,000 COP</span>
     </div>
     <div class="w-full bg-amber-200 rounded-full h-2">
-      <div class="bg-amber-600 h-2 rounded-full" style="width: 42.8%"></div>
+      <div class="bg-amber-600 h-2 rounded-full" style="width: 7.7%"></div>
     </div>
   </div>
+
+  <!-- Nómina Operativa -->
+  <div>
+    <div class="flex justify-between items-center mb-1">
+      <span class="text-amber-800">Nómina Operativa</span>
+      <span class="font-mono text-amber-900">18,600,000 COP</span>
+    </div>
+    <div class="w-full bg-amber-200 rounded-full h-2">
+      <div class="bg-blue-500 h-2 rounded-full" style="width: 79.3%"></div>
+    </div>
   </div>
-      
+</div>
+
   <!-- Columna Derecha -->
   <div class="space-y-4">
     <!-- Transporte -->
@@ -748,10 +759,10 @@ image: /assets/fondo10.png
         <span class="font-mono text-amber-900">410,000 COP</span>
       </div>
       <div class="w-full bg-amber-200 rounded-full h-2">
-        <div class="bg-amber-400 h-2 rounded-full" style="width: 9.7%"></div>
+        <div class="bg-amber-400 h-2 rounded-full" style="width: 1.7%"></div>
       </div>
     </div>
-        
+
   <!-- Mantenimiento -->
   <div>
     <div class="flex justify-between items-center mb-1">
@@ -759,71 +770,36 @@ image: /assets/fondo10.png
       <span class="font-mono text-amber-900">300,000 COP</span>
     </div>
     <div class="w-full bg-amber-200 rounded-full h-2">
-      <div class="bg-amber-300 h-2 rounded-full" style="width: 7.1%"></div>
+      <div class="bg-amber-300 h-2 rounded-full" style="width: 1.3%"></div>
+    </div>
+  </div>
+
+  <!-- Publicidad -->
+  <div>
+    <div class="flex justify-between items-center mb-1">
+      <span class="text-amber-800">Publicidad</span>
+      <span class="font-mono text-amber-900">600,000 COP</span>
+    </div>
+    <div class="w-full bg-amber-200 rounded-full h-2">
+      <div class="bg-green-500 h-2 rounded-full" style="width: 2.6%"></div>
     </div>
   </div>
 </div>
-</div>
-    
+  </div>
+
   <!-- Total -->
   <div class="pt-6 mt-6 border-t border-amber-200">
     <div class="flex justify-between items-center">
       <span class="text-lg font-medium text-amber-900">Total Gastos</span>
-      <span class="text-2xl font-bold text-amber-900">4,210,000 COP</span>
+      <span class="text-2xl font-bold text-amber-900">23,462,750 COP</span>
     </div>
     <div class="text-sm text-amber-700 mt-1">
-      Los gastos operativos representan el 6.58% de los ingresos totales
+      Los gastos operativos representan el 36.66% de los ingresos totales
     </div>
   </div>
   </div>
 </div>
 
----
-
-# Gastos Operativos
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-  <div class="space-y-4">
-    <div class="bg-white/5 p-4 rounded-xl backdrop-blur-sm">
-      <div class="flex justify-between items-center">
-        <span class="text-gray-300">Nómina Operativa</span>
-        <span class="font-mono">18,600,000 COP</span>
-      </div>
-      <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
-        <div class="bg-blue-500 h-2 rounded-full" style="width: 79.3%"></div>
-      </div>
-    </div>
-
-  <div class="bg-white/5 p-4 rounded-xl backdrop-blur-sm">
-    <div class="flex justify-between items-center">
-      <span class="text-gray-300">Publicidad</span>
-      <span class="font-mono">600,000 COP</span>
-    </div>
-    <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
-      <div class="bg-green-500 h-2 rounded-full" style="width: 2.6%"></div>
-    </div>
-  </div>
-
-  </div>
-
-  <div class="bg-gradient-to-br from-purple-600 to-purple-700 p-6 rounded-2xl shadow-lg flex flex-col justify-between">
-    <div>
-      <div class="text-purple-100 text-lg">Total Gastos Operativos</div>
-      <div class="text-3xl font-bold text-white my-3">23,462,750 COP</div>
-      <div class="text-purple-200">36.66% de los ingresos</div>
-    </div>
-    <div class="mt-4 text-sm text-purple-100">
-      <div class="flex items-center">
-        <div class="w-3 h-3 rounded-full bg-blue-500 mr-2"></div>
-        <span>79.3% Nómina</span>
-      </div>
-      <div class="flex items-center mt-1">
-        <div class="w-3 h-3 rounded-full bg-green-500 mr-2"></div>
-        <span>2.6% Publicidad</span>
-      </div>
-    </div>
-  </div>
-</div>
 
 ---
 
