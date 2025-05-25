@@ -706,10 +706,7 @@ layout: chat-layout
 </div>
 
 ---
-
-<div class="mt-16">
-  <div class="text-4xl mb-4">👋</div>
-  <h2 class="text-3xl font-bold text-white">¡Gracias por su atención!</h2>
-  <p class="text-xl text-gray-300 mt-2">Tamales Doña Claudia - Abril 2025</p>
-</div>  
-
+layout: image
+image: /assets/fondo11.png
+class: px-10 py-24
+---

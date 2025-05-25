@@ -41,6 +41,9 @@ function toggleChat() {
   height: 100%;
   position: relative;
   overflow: hidden;
+  /* FONDO IMAGEN */
+  background: url('./assets/fondo5.png') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .slide-container {
