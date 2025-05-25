@@ -802,69 +802,69 @@ image: /assets/fondo10.png
 
 
 ---
+layout: image
+image: /assets/fondo4.png
+---
+
 
 # Utilidades del Periodo
 
 <div class="space-y-4">
-  <div class="bg-white/5 p-4 rounded-xl backdrop-blur-sm">
+  <div class="bg-[#E3D8D4] p-4 rounded-xl">
     <div class="flex justify-between items-center">
-      <span class="text-gray-300">Utilidad Bruta</span>
-      <span class="font-mono">34,462,800 COP</span>
+      <span class="text-[#253754]">Utilidad Bruta</span>
+      <span class="font-mono text-[#253754]">34,462,800 COP</span>
     </div>
   </div>
   
-  <div class="bg-white/5 p-4 rounded-xl backdrop-blur-sm">
+  <div class="bg-[#E3D8D4] p-4 rounded-xl">
     <div class="flex justify-between items-center">
-      <span class="text-gray-300">Utilidad Operativa</span>
-      <span class="font-mono">11,652,800 COP</span>
+      <span class="text-[#253754]">Utilidad Operativa</span>
+      <span class="font-mono text-[#253754]">11,652,800 COP</span>
     </div>
   </div>
   
-  <div class="bg-white/5 p-4 rounded-xl backdrop-blur-sm">
+  <div class="bg-[#E3D8D4] p-4 rounded-xl">
     <div class="flex justify-between items-center">
-      <span class="text-gray-300">Antes de Impuestos</span>
-      <span class="font-mono">10,069,496 COP</span>
+      <span class="text-[#253754]">Antes de Impuestos</span>
+      <span class="font-mono text-[#253754]">10,069,496 COP</span>
     </div>
   </div>
   
-  <div class="bg-gradient-to-r from-blue-600/30 to-blue-800/30 p-4 rounded-xl border border-blue-500/20">
+  <div class="bg-[#E3D8D4] p-4 rounded-xl border border-amber-500/20">
     <div class="flex justify-between items-center">
-      <span class="text-white font-medium">Utilidad Neta</span>
-      <span class="font-mono text-xl font-bold text-white">6,746,562 COP</span>
+      <span class="text-[#253754] font-medium">Utilidad Neta</span>
+      <span class="font-mono text-xl font-bold text-[#253754]">6,746,562 COP</span>
     </div>
-  </div>
-</div>
-
----
-layout: chat-layout
-
----
-
-# 🎯 Conclusiones Clave
-
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-  <div class="bg-white/5 p-6 rounded-2xl backdrop-blur-sm transform transition-transform hover:scale-105">
-    <div class="text-4xl mb-4">🚀</div>
-    <h3 class="text-xl font-bold text-blue-300 mb-2">Crecimiento Sólido</h3>
-    <p class="text-gray-300">+11.58% en ventas vs 2024</p>
-  </div>
-
-  <div class="bg-white/5 p-6 rounded-2xl backdrop-blur-sm transform transition-transform hover:scale-105">
-    <div class="text-4xl mb-4">💼</div>
-    <h3 class="text-xl font-bold text-green-300 mb-2">Rentabilidad</h3>
-    <p class="text-gray-300">15.73% margen neto</p>
-  </div>
-
-  <div class="bg-white/5 p-6 rounded-2xl backdrop-blur-sm transform transition-transform hover:scale-105">
-    <div class="text-4xl mb-4">📈</div>
-    <h3 class="text-xl font-bold text-amber-300 mb-2">Potencial</h3>
-    <p class="text-gray-300">Listos para escalar operaciones</p>
   </div>
 </div>
 
 ---
 layout: image
 image: /assets/fondo4.png
+---
+
+# Conclusiones Clave
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+  <div class="bg-[#253754] p-6 rounded-2xl backdrop-blur-sm transform transition-transform hover:scale-105">
+    <h3 class="text-xl font-bold text-white mb-2">Crecimiento Sólido</h3>
+    <p class="text-white">+11.58% en ventas vs 2024</p>
+  </div>
+
+  <div class="bg-[#253754] p-6 rounded-2xl backdrop-blur-sm transform transition-transform hover:scale-105">
+    <h3 class="text-xl font-bold text-white mb-2">Rentabilidad</h3>
+    <p class="text-white">15.73% margen neto</p>
+  </div>
+
+  <!-- <div class="bg-[#253754] p-6 rounded-2xl backdrop-blur-sm transform transition-transform hover:scale-105">
+    <h3 class="text-xl font-bold text-white mb-2">Potencial</h3>
+    <p class="text-white">Listos para escalar operaciones</p>
+  </div> -->
+</div>
+
+---
+layout: chat-layout
 ---
 
 
