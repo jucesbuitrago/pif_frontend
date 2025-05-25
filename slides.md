@@ -702,7 +702,9 @@ image: /assets/fondo4.png
 </div>
 
 ---
-
+layout: image
+image: /assets/fondo10.png
+---
 
 
 # Gastos de Operación
@@ -773,49 +775,6 @@ image: /assets/fondo4.png
       Los gastos operativos representan el 6.58% de los ingresos totales
     </div>
   </div>
-  </div>
-  
-  <!-- Análisis y Recomendaciones -->
-  <div class="mt-6 bg-amber-50/80 p-5 rounded-2xl border border-amber-200">
-    <h3 class="text-lg font-medium text-amber-900 mb-4">Análisis y Recomendaciones</h3>
-    
-  <div class="space-y-4">
-    <div class="flex items-start">
-      <div class="flex-shrink-0 mt-1 text-amber-600">•</div>
-      <div class="ml-3">
-        <p class="text-sm text-amber-800">
-          Los arriendos y servicios públicos representan el <span class="font-semibold">83.2%</span> de los gastos operativos.
-        </p>
-      </div>
-    </div>
-    
-  <div class="flex items-start">
-    <div class="flex-shrink-0 mt-1 text-amber-600">•</div>
-    <div class="ml-3">
-      <p class="text-sm text-amber-800">
-        Reducción del <span class="font-semibold">8%</span> en gastos de transporte respecto al mes anterior.
-      </p>
-    </div>
-  </div>
-  
-  <div class="mt-4 pt-4 border-t border-amber-200">
-    <h4 class="text-sm font-medium text-amber-900 mb-2">Recomendaciones</h4>
-    <ul class="space-y-2 text-sm text-amber-700 pl-2">
-      <li class="flex items-start">
-        <span class="mr-2">•</span>
-        <span>Evaluar opciones para optimizar el consumo de servicios públicos.</span>
-      </li>
-      <li class="flex items-start">
-        <span class="mr-2">•</span>
-        <span>Considerar renegociación de contratos de arrendamiento.</span>
-      </li>
-      <li class="flex items-start">
-        <span class="mr-2">•</span>
-        <span>Mantener la eficiencia en costos de transporte.</span>
-      </li>
-    </ul>
-  </div>
-</div>
   </div>
 </div>
 
